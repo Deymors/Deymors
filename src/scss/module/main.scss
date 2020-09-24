@@ -1,6 +1,6 @@
 .main{
   position: relative;
-  max-width:900px;
+  max-width:$max-screen;
   &__banner{
     position: absolute;
     top:0;
@@ -21,7 +21,7 @@
     }
   }
   &__descriptions{
-    max-width: 900px;
+    max-width: $max-screen;
     padding-top:$xxxl+$xxxl+$xxxl+$xxxl;
     padding-left: $m;
     padding-right: $m;

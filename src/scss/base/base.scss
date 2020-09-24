@@ -6,3 +6,36 @@
 body {
     position: relative;
 }
+h1{
+    font-size: $xxl+$xxl+$l+$m;
+    margin:$xs;
+}
+h2{
+    font-size: $xxl+$xxl+$l;
+    margin:$xs;
+}
+h3{
+    font-size: $xxl+$l;
+    margin:$xs;
+}
+h4{
+    font-size: $xxl+$m+$s;
+    margin:$xs;
+}
+h5{
+    font-size: $xl+$s;
+    margin:$xs;
+}
+h6{
+    font-size: $xl+$xs;
+    margin:$xs;
+}
+label{
+    font-size: $xl;
+    margin:$xs;
+}
+
+p{
+    font-size: $xl+$xs;
+    margin:$xs;
+}

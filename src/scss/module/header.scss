@@ -9,14 +9,13 @@
     padding:$l;
   }
   &__component{
-    h3{
+    h5{
       margin:0;
-      font-size: $xl;
       cursor: pointer;
       font-weight: 100;
       border-bottom: $xxs solid $white;
     }
-    h3:hover{
+    h5:hover{
       transform: scale(1.05);
       transition-duration: 1s;
     }
@@ -42,7 +41,6 @@
       position: relative;
       padding-left: $toggle-width;
       cursor: pointer;
-      font-size: $xl;
       user-select: none;
 
       input {

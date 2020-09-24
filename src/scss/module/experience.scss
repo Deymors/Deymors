@@ -1,23 +1,138 @@
 .experience {
+  max-width: $max-screen;
+  width: 100%;
+  padding: $m;
+  text-align: center;
+
   &__controller {
-    &__item{
+    text-align: start;
+
+    &__item {
+      border-radius: $xxl;
+      border: $xs solid $white;
+      width: fit-content;
+      padding: $s+$xs+$xxs;
+
+    }
+
+    &__item:hover {
+      background: $white;
+      cursor: pointer;
+      color: $black;
 
     }
   }
 
   &__container {
     &__list {
-      &_boxes{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      h3 {
+        width: 80%;
+        padding-bottom: $l;
+        border-bottom: $xs solid $white;
+      }
+
+      &__boxes {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+
         &__box {
-          &__media{
+          border-radius: $xxl;
+          border: $xs solid $white;
+          text-align: start;
+          padding: $xl;
+          margin: $xl;
+          min-width: 400px;
+          max-width: 450px;
+          display: flex;
+          justify-content: space-between;
+          position: relative;
 
-          }
-          &__description{
+          &__media {
+            filter: grayscale(1.0);
+            padding-right: $xl;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            img {
+              height: 100px;
+            }
 
-          }
-          &__flair{
+            &__line-top{
+              height:30px;
+            }
 
+            &__line-bottom{
+              height:60%;
+            }
+
+            div{
+              width:$s;
+              background-image: linear-gradient($white 33%, rgba(255,255,255,0) 0%);
+              background-position: right;
+              background-size: $s ($xxl+$l);
+              background-repeat: repeat-y;
+              margin:$xl;
+            }
           }
+
+          &__description {
+            h4 {
+              margin: 0;
+            }
+          }
+
+          &__tags {
+            margin-bottom: $m;
+          }
+
+          &__learn-more{
+            width:100%;
+            display: flex;
+            justify-content: flex-end;
+            h5{
+              border:$xs solid $white;
+              border-radius: $xxs;
+              padding:$m;
+              width:fit-content;
+            }
+            h5:hover{
+              background: $white;
+              color:$black;
+              cursor:pointer;
+            }
+          }
+
+          &__flair {
+            position: absolute;
+            width: 100%;
+            text-align: right;
+            padding-right: $xxl+$xl;
+            display: flex;
+            justify-content: flex-end;
+
+
+            h5 {
+              width:fit-content;
+              color:$black;
+              border-radius: $xl;
+              padding:$m;
+              background: $white;
+              margin: 0;
+            }
+          }
+        }
+
+        &__box:hover {
+          transform: scale(1.02);
+          transition-duration: 0.5s;
         }
       }
     }
