@@ -1,8 +1,29 @@
 .main{
+  position: relative;
+  max-width:900px;
   &__banner{
-
+    position: absolute;
+    top:0;
+    text-align: right;
+    width:100%;
+    img{
+      position: absolute;
+      height:$xxxl+$xxxl+$xxxl+$xxxl;
+      width:auto;
+      top: 0;
+      left: 0;
+    }
+    h1{
+      position: absolute;
+      padding:$xl;
+      width:100%;
+      margin:0;
+    }
   }
   &__descriptions{
-
+    max-width: 900px;
+    padding-top:$xxxl+$xxxl+$xxxl+$xxxl;
+    padding-left: $m;
+    padding-right: $m;
   }
 }
