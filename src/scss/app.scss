@@ -1,4 +1,4 @@
-@import "variables/media";
+@import "variables/variables";
 
 @import "mixin/media";
 
@@ -11,5 +11,14 @@
 @import 'base/base';
 @import 'base/fonts';
 
+@import "module/experience";
+@import "module/footer";
+@import "module/header";
+@import "module/main";
+
+body{
+  background: $black;
+  color:$white;
+}
 
 
