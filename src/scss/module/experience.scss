@@ -1,8 +1,26 @@
-#experience-container {
-  &__list{
-
-    &__box{
+.experience {
+  &__controller {
+    &__item{
 
     }
   }
+
+  &__container {
+    &__list {
+      &_boxes{
+        &__box {
+          &__media{
+
+          }
+          &__description{
+
+          }
+          &__flair{
+
+          }
+        }
+      }
+    }
+  }
+
 }
