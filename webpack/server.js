@@ -5,11 +5,6 @@ const fs = require('fs');
 const Util = {
     getCommand: function () {
         let cmd = "npm";
-        process.argv.forEach((command) => {
-            if (command === '--yarn') {
-                cmd = 'yarn';
-            }
-        });
         if (process.platform === "win32") {
             cmd += '.cmd';
         }
