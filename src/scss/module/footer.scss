@@ -1,0 +1,30 @@
+.footer-menu {
+  padding: 0 ($xxxl);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    padding: $l;
+  }
+
+  &__component {
+    h6 {
+      margin: 0;
+      cursor: pointer;
+      font-weight: 100;
+      border-bottom: $xxs solid $white;
+      opacity: 0.7;
+    }
+
+    h6:hover {
+      transform: scale(1.05);
+      transition-duration: 1s;
+    }
+  }
+}
+.footer-copyright{
+  text-align: center;
+  padding-bottom: $xl;
+}

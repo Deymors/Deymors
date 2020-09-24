@@ -1,0 +1,55 @@
+.stars {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+
+  @keyframes particleAnimation {
+    from {
+      top: -100px;
+    }
+    to {
+      top: calc(100% + 100px);
+    }
+  }
+
+  &__star {
+    transform: rotate(180deg);
+    position: fixed;
+    top: 0px;
+    left: 50px;
+    background-color: $white;
+    animation-name: particleAnimation;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    width: 5.4px;
+    box-sizing: content-box;
+    border-width: 5.0px 1.8px 0;
+    border-style: solid;
+    border-color: $white $black;
+  }
+
+  &__star::before {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 100px;
+    bottom: 1px;
+    top: 0px;
+    width: 5.4px;
+    background-image: linear-gradient($white 50%, rgba(255, 255, 255, 0) 0%);
+    background-size: 5px 10px;
+    background-repeat: repeat-y;
+  }
+
+  &__star:after {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -8.5px;
+    left: -1.8px;
+    border-width: 0 4.5px 3.5px;
+    border-style: solid;
+    border-color: $black $black $white;
+  }
+}

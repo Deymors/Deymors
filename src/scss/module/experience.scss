@@ -1,17 +1,30 @@
 .experience {
+  background: $black;
   max-width: $max-screen;
   width: 100%;
   padding: $m;
   text-align: center;
+  h2{
+    font-weight: 300;
+  }
 
   &__controller {
     text-align: start;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__row-breaker{
+      flex-basis: 100%;
+      height: 0;
+    }
 
     &__item {
       border-radius: $xxl;
       border: $xs solid $white;
       width: fit-content;
-      padding: $s+$xs+$xxs;
+      padding: $xs+$xxs;
+      margin:$m;
 
     }
 
@@ -44,6 +57,7 @@
         flex-wrap: wrap;
 
         &__box {
+          background:$black;
           border-radius: $xxl;
           border: $xs solid $white;
           text-align: start;
@@ -81,6 +95,10 @@
               background-repeat: repeat-y;
               margin:$xl;
             }
+            transition: all 1s ease;
+          }
+          &__media:hover{
+            filter:none;
           }
 
           &__description {
@@ -90,6 +108,7 @@
           }
 
           &__tags {
+            margin-top: $m;
             margin-bottom: $m;
           }
 
