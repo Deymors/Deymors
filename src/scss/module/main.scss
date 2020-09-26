@@ -7,18 +7,42 @@
     text-align: right;
     width:100%;
     img{
-      filter: invert(1);
+      padding-top:20px;
+      padding-bottom:20px;
       position: absolute;
       height:$banner-height;
       width:auto;
       top: 0;
       left: 0;
+      animation-duration: 2.4s;
+      animation-iteration-count: infinite;
+      animation-name: bounce;
+    }
+    @keyframes bounce {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
     }
     h1{
       position: absolute;
       padding:$xl;
       width:100%;
       margin:0;
+    }
+    &__links{
+      position: absolute;
+      padding:$xl;
+      width:100%;
+      margin:0;
+      top:$xxxl+$xxxl+$xxxl;
+      a{
+        margin-top:0;
+        padding-bottom:$xl;
+        color:$black;
+        font-weight: 100;
+        letter-spacing: $s;
+        font-size:$xxl+$s;
+      }
     }
   }
   &__descriptions{
@@ -27,12 +51,12 @@
     padding-left: $m;
     padding-right: $m;
     h5{
-      border-top: $xs solid $white;
+      border-top: $xs solid $black;
       padding-top: $xl;
+      width:100%;
     }
     &__text {
       padding:$s;
-      background: $black;
     }
   }
 }

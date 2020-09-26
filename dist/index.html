@@ -3,21 +3,260 @@
     <title>Boilerplate</title>
 <link href="./assets/css/styles.css" rel="stylesheet"></head>
 <body>
-<header>HEADER START</header>
-<img src="assets/img/cat.jpg" width="100" alt="">
-<header>HEADER END</header>
+<div class="stars" id="stars-container">
+</div>
+<script>
+    let stars = document.getElementById("stars-container");
+    for (let i = 0; i < 34; i++) {
+        let randLeft = Math.random()*100;
+        let randDur = 4.0+Math.random()*10;
+        let randOpacity = 0.3+Math.random()*0.7;
+        let star = document.createElement('div');
+        star.className = "stars__star";
+        star.style.left=randLeft+'%';
+        star.style.animationDuration = randDur+'s';
+        star.style.opacity = randOpacity;
+        stars.append(star);
+    }
+</script>
+<header>
+    <div class="header-menu">
+        <div class="header-menu__component">
+            <h5>About</h5>
+        </div>
+        <div class="header-menu__component">
+            <h5>Experience</h5>
+        </div>
+        <div class="header-menu__component">
+            <h5>Linkedin</h5>
+        </div>
+        <div class="header-menu__component">
+            <h5>Github</h5>
+        </div>
+        <div class="header-menu__component">
+            <h5>Email</h5>
+        </div>
+        <div class="header-menu__mode-switch">
+            <div class="toggle transparent">
+                <label>
+                    <input type="checkbox" checked="checked">
+                    <span></span>
+                </label>
+            </div>
+        </div>
+    </div>
+</header>
 
-<div class="grid-row">
-    <div class="grid-col--5">
-        <div class="cat">
-            <img src="assets/img/cat.jpg" width="100" alt="">
-            <div class="cat__photo"></div>
-            <div class="cat__title">Cat</div>
+<div class="main">
+    <div class="main__banner">
+        <h1>Dima Romanov</h1>
+        <img src="/img/banner_b.jpg"
+             alt="Dima">
+        <div class="stars-background"></div>
+    </div>
+    <div class="main__descriptions">
+        <div class="main__descriptions__text">
+            <h5>Hi,</h5>
+            <p>I am Dima Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien ipsum, pellentesque aliquam
+                eleifend sit amet, iaculis sed nibh. Phasellus malesuada turpis in malesuada tempus. Ut pharetra varius
+                turpis ac fringilla. Vestibulum porta lectus at aliquet pharetra. Nullam ac dui quis nisi hendrerit
+                hendrerit eu ut nulla. Nam libero justo, fermentum pellentesque mattis at, laoreet quis erat. Proin
+                dapibus at turpis eget sagittis. Nam auctor augue quis pulvinar molestie. Morbi ultricies feugiat
+                imperdiet. Donec laoreet elit quis eros auctor mattis. Integer vitae fringilla nisi. In pulvinar massa
+                sit amet nisi congue ullamcorper.</p>
         </div>
     </div>
 </div>
-<a href="products.html">products.html</a>
-<footer>footer</footer>
+
+<div class="experience">
+    <h2>Experience</h2>
+    <div class="experience__controller">
+        <h5>Programming Languages:</h5>
+        <div class="experience__controller__item">
+            <h6>Java</h6>
+        </div>
+        <div class="experience__controller__row-breaker"></div>
+        <h5>Technologies:</h5>
+        <div class="experience__controller__item">
+            <h6>Java</h6>
+        </div>
+        <div class="experience__controller__item">
+            <h6>Java</h6>
+        </div>
+        <div class="experience__controller__item">
+            <h6>Java</h6>
+        </div>
+        <div class="experience__controller__item">
+            <h6>Java</h6>
+        </div>
+        <div class="experience__controller__item">
+            <h6>Java</h6>
+        </div>
+        <div class="experience__controller__item">
+            <h6>Java</h6>
+        </div>
+        <div class="experience__controller__item">
+            <h6>Java</h6>
+        </div>
+        <div class="experience__controller__item">
+            <h6>Java</h6>
+        </div>
+        <div class="experience__controller__item">
+            <h6>Java</h6>
+        </div>
+    </div>
+    <div class="experience-container">
+        <div class="experience__container__list">
+            <h3>Work Experience</h3>
+            <div class="experience__container__list__boxes">
+                <div class="experience__container__list__boxes__box">
+                    <div class="experience__container__list__boxes__box__media">
+                        <div class="experience__container__list__boxes__box__media__line-top"></div>
+                        <img src="https://katimavik.org/wp-content/uploads/2020/03/RBC-logo.png" alt="hehe">
+                        <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                    </div>
+                    <div class="experience__container__list__boxes__box__description">
+                        <h4>Title</h4>
+                        <h5>Subtitle</h5>
+                        <p>I am Dima Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien ipsum,
+                            pellentesque aliquam eleifend sit amet, iaculis sed nibh. Phasellus malesuada turpis in
+                            malesuada tempus. Ut pharetra varius turpis ac fringilla. Vestibulum porta lectus at aliquet
+                            pharetra. Nullam ac dui quis nisi hendrerit hendrerit eu ut nulla.</p>
+                        <button>Learn More</button>
+                    </div>
+                    <div class="experience__container__list__boxes__box__flair">
+                        <h5>Auditing</h5>
+                    </div>
+                </div>
+                <div class="experience__container__list__boxes__box">
+                    <div class="experience__container__list__boxes__box__media">
+                        <div class="experience__container__list__boxes__box__media__line-top"></div>
+                        <img src="https://katimavik.org/wp-content/uploads/2020/03/RBC-logo.png" alt="hehe">
+                        <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                    </div>
+                    <div class="experience__container__list__boxes__box__description">
+                        <h4>Title</h4>
+                        <h5>Subtitle</h5>
+                        <p>I am Dima Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien ipsum,
+                            pellentesque aliquam eleifend sit amet, iaculis sed nibh. Phasellus malesuada turpis in
+                            malesuada tempus. Ut pharetra varius turpis ac fringilla. Vestibulum porta lectus at aliquet
+                            pharetra. Nullam ac dui quis nisi hendrerit hendrerit eu ut nulla.</p>
+                        <div class="experience__container__list__boxes__box__tags">
+                            <div class="experience__controller__item">
+                                <h6>Java</h6>
+                            </div>
+                        </div>
+                        <div class="experience__container__list__boxes__box__learn-more">
+                            <h5>Learn More</h5></div>
+                    </div>
+                    <div class="experience__container__list__boxes__box__flair">
+                        <h5>Auditing</h5>
+                    </div>
+                </div>
+                <div class="experience__container__list__boxes__box">
+                    <div class="experience__container__list__boxes__box__media">
+                        <div class="experience__container__list__boxes__box__media__line-top"></div>
+                        <img src="https://katimavik.org/wp-content/uploads/2020/03/RBC-logo.png" alt="hehe">
+                        <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                    </div>
+                    <div class="experience__container__list__boxes__box__description">
+                        <h4>Title</h4>
+                        <h5>Subtitle</h5>
+                        <p>I am Dima Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien ipsum,
+                            pellentesque aliquam eleifend sit amet, iaculis sed nibh. Phasellus malesuada turpis in
+                            malesuada tempus. Ut pharetra varius turpis ac fringilla. Vestibulum porta lectus at aliquet
+                            pharetra. Nullam ac dui quis nisi hendrerit hendrerit eu ut nulla.</p>
+                        <div class="experience__container__list__boxes__box__tags">
+                            <div class="experience__controller__item">
+                                <h6>Java</h6>
+                            </div>
+                        </div>
+                        <div class="experience__container__list__boxes__box__learn-more">
+                            <h5>Learn More</h5></div>
+                    </div>
+                    <div class="experience__container__list__boxes__box__flair">
+                        <h5>Auditing</h5>
+                    </div>
+                </div>
+                <div class="experience__container__list__boxes__box">
+                    <div class="experience__container__list__boxes__box__media">
+                        <div class="experience__container__list__boxes__box__media__line-top"></div>
+                        <img src="https://katimavik.org/wp-content/uploads/2020/03/RBC-logo.png" alt="hehe">
+                        <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                    </div>
+                    <div class="experience__container__list__boxes__box__description">
+                        <h4>Title</h4>
+                        <h5>Subtitle</h5>
+                        <p>I am Dima Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien ipsum,
+                            pellentesque aliquam eleifend sit amet, iaculis sed nibh. Phasellus malesuada turpis in
+                            malesuada tempus. Ut pharetra varius turpis ac fringilla. Vestibulum porta lectus at aliquet
+                            pharetra. Nullam ac dui quis nisi hendrerit hendrerit eu ut nulla.</p>
+                        <div class="experience__container__list__boxes__box__tags">
+                            <div class="experience__controller__item">
+                                <h6>Java</h6>
+                            </div>
+                        </div>
+                        <div class="experience__container__list__boxes__box__learn-more">
+                            <h5>Learn More</h5></div>
+                    </div>
+                    <div class="experience__container__list__boxes__box__flair">
+                        <h5>Auditing</h5>
+                    </div>
+                </div>
+                <div class="experience__container__list__boxes__box">
+                    <div class="experience__container__list__boxes__box__media">
+                        <div class="experience__container__list__boxes__box__media__line-top"></div>
+                        <img src="https://katimavik.org/wp-content/uploads/2020/03/RBC-logo.png" alt="hehe">
+                        <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                    </div>
+                    <div class="experience__container__list__boxes__box__description">
+                        <h4>Title</h4>
+                        <h5>Subtitle</h5>
+                        <p>I am Dima Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien ipsum,
+                            pellentesque aliquam eleifend sit amet, iaculis sed nibh. Phasellus malesuada turpis in
+                            malesuada tempus. Ut pharetra varius turpis ac fringilla. Vestibulum porta lectus at aliquet
+                            pharetra. Nullam ac dui quis nisi hendrerit hendrerit eu ut nulla.</p>
+                        <div class="experience__container__list__boxes__box__tags">
+                            <div class="experience__controller__item">
+                                <h6>Java</h6>
+                            </div>
+                        </div>
+                        <div class="experience__container__list__boxes__box__learn-more">
+                            <h5>Learn More</h5></div>
+                    </div>
+                    <div class="experience__container__list__boxes__box__flair">
+                        <h5>Auditing</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-menu">
+        <div class="footer-menu__component">
+            <h6>About</h6>
+        </div>
+        <div class="footer-menu__component">
+            <h6>Experience</h6>
+        </div>
+        <div class="footer-menu__component">
+            <h6>Education</h6>
+        </div>
+        <div class="footer-menu__component">
+            <h6>Linkedin</h6>
+        </div>
+        <div class="footer-menu__component">
+            <h6>Github</h6>
+        </div>
+        <div class="footer-menu__component">
+            <h6>Email</h6>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <span>© Dima Romanov</span>
+    </div>
+</footer>
 
 <script type="text/javascript" src="./assets/js/bundle.js"></script></body>
 </html>
