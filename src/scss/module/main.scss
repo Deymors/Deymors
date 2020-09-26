@@ -6,17 +6,20 @@
     top:0;
     text-align: right;
     width:100%;
-    img{
+    &__image{
       padding-top:20px;
       padding-bottom:20px;
       position: absolute;
       height:$banner-height;
-      width:auto;
       top: 0;
       left: 0;
+      background: var(--image);
       animation-duration: 2.4s;
       animation-iteration-count: infinite;
       animation-name: bounce;
+      background-size: contain;
+      width:100%;
+      background-repeat: no-repeat;
     }
     @keyframes bounce {
       0%   { transform: translateY(0); }
@@ -38,7 +41,7 @@
       a{
         margin-top:0;
         padding-bottom:$xl;
-        color:$black;
+        color:var(--primary-color);
         font-weight: 100;
         letter-spacing: $s;
         font-size:$xxl+$s;
@@ -51,7 +54,7 @@
     padding-left: $m;
     padding-right: $m;
     h5{
-      border-top: $xs solid $black;
+      border-top: $xs solid var(--primary-color);
       padding-top: $xl;
       width:100%;
     }
@@ -59,4 +62,28 @@
       padding:$s;
     }
   }
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+
+}
+
+.loader{
+  height: 10px;
+  background-color: $white;
+  position: fixed;
+  z-index: 10000;
+  top:50%;
+}
+.loader-bg{
+  top:0;
+  left:0;
+  background-color: $black;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
 }

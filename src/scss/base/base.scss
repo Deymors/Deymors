@@ -47,15 +47,10 @@ p{
 }
 
 .stars-blur{
-    background: radial-gradient(rgba(245,245,245,0.8) 90%, rgba(0,0,0,0));
-    &--black{
-        background: radial-gradient(rgba(40,40,40,0.8) 90%, rgba(0,0,0,0));
-    }
+    background: var(--blur);
 }
 
 .stars-full-blur{
-    background: radial-gradient(rgba(245,245,245,0.9) 90%, rgba(0,0,0,0));
-    &--black{
-        background: radial-gradient(rgba(40,40,40,0.9) 90%, rgba(0,0,0,0));
-    }
+    background: var(--full-blur);
 }
+

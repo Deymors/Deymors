@@ -1,4 +1,23 @@
 @import "variables/variables";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
+
+:root {
+  --primary-color: #272727;
+  --secondary-color: #f5f5f5;
+  --blur: radial-gradient(rgba(245,245,245,0.8) 90%, rgba(0,0,0,0));
+  --full-blur: radial-gradient(rgba(245,245,245,0.9) 90%, rgba(0,0,0,0));
+  --image: url("/img/personal_w.png");
+}
+
+[data-theme="dark"] {
+  --primary-color: #f5f5f5;
+  --secondary-color: #272727;
+  --blur: radial-gradient(rgba(40,40,40,0.8) 90%, rgba(0,0,0,0));
+  --full-blur: radial-gradient(rgba(40,40,40,0.9) 90%, rgba(0,0,0,0));
+  --image: url("/img/personal_b.png");
+}
+
+
 
 @import "mixin/media";
 
@@ -18,8 +37,8 @@
 @import "module/stars";
 
 body{
-  background: $white;
-  color:$black;
+  background: var(--secondary-color);
+  color:var(--primary-color);
   display: flex;
   justify-content: center;
   align-items: center;

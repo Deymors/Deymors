@@ -17,7 +17,7 @@
     position: fixed;
     top: 0px;
     left: 50px;
-    background-color: $black;
+    background-color: var(--primary-color);
     animation-name: particleAnimation;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -25,7 +25,7 @@
     box-sizing: content-box;
     border-width: 5.0px 1.8px 0;
     border-style: solid;
-    border-color: $black $white;
+    border-color: var(--primary-color) var(--secondary-color);
   }
 
   &__star::before {
@@ -36,7 +36,7 @@
     bottom: 1px;
     top: 0px;
     width: 5.4px;
-    background-image: linear-gradient($black 50%, rgba(255, 255, 255, 0) 0%);
+    background-image: linear-gradient(var(--primary-color) 50%, rgba(255, 255, 255, 0) 0%);
     background-size: 5px 10px;
     background-repeat: repeat-y;
   }
@@ -50,6 +50,6 @@
     left: -1.8px;
     border-width: 0 4.5px 3.5px;
     border-style: solid;
-    border-color: $white $white $black;
+    border-color: var(--secondary-color) var(--secondary-color) var(--primary-color);
   }
 }
