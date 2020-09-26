@@ -19,6 +19,7 @@
         "linebreak-style": 0,
         "indent": ["error", 4],
         "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
-        "no-restricted-syntax": ["error", "never"]
+        "no-restricted-syntax": ["error", "never"],
+        "import/prefer-default-export": "off"
     }
 }

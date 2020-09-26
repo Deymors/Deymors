@@ -24,14 +24,46 @@
       width: fit-content;
       padding: $xs+$xxs;
       margin:$m;
-
+      &--selected{
+        transform: scale(1.014);
+        border:none;
+        box-shadow: 0 0 0 $xs var(--primary-color),
+        0 0 0 $s var(--secondary-color),
+        0 0 0 ($xs+$s)  var(--primary-color);
+      }
+      &:hover {
+        background: var(--primary-color);
+        cursor: pointer;
+        color: var(--secondary-color);
+      }
+      &--unselectable{
+        border: $xs dashed var(--primary-color);
+        &:hover {
+          background: var(--secondary-color);
+          cursor: default;
+          color: var(--primary-color);
+        }
+      }
     }
 
-    &__item:hover {
-      background: var(--primary-color);
-      cursor: pointer;
-      color: var(--secondary-color);
 
+  }
+
+  &__clear-button{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding-right:$xxl;
+    h5{
+      border:$xs solid var(--primary-color);
+      border-radius: $xxl;
+      padding:$m;
+
+    }
+    h5:hover{
+      background: var(--primary-color);
+      color:var(--secondary-color);
+      cursor:pointer;
     }
   }
 
