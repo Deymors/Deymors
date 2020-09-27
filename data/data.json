@@ -4,10 +4,46 @@
       "title": "Work Experience",
       "exps": [
         {
+          "title": "Mila",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
           "title": "RBC",
-          "subTitle": "hehe",
-          "description": "he asodijasldjaosdij aljsd ;laksjd ;lakjsd l;aksjd ;lakjsd;l akjsdhe",
-          "learnMoreLink": "asdasda",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "McGill University Research Centre for Studies in Aging",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Interfacing Technologies",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
           "flair": {
           },
           "tags": [
@@ -21,14 +57,87 @@
       "title": "Projects",
       "exps": [
         {
-          "title": "RBC",
-          "subTitle": "hehe",
-          "description": "he asodijasldjaosdij aljsd ;laksjd ;lakjsd l;aksjd ;lakjsd;l akjsdhe",
-          "learnMoreLink": "asdasda",
+          "title": "Babbl",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
           "flair": {
           },
           "tags": [
-            "Java"
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Kima",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Nutriboom",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Locite",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Fireworks Simulator",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Food Delivery App Prototype",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Competitive Programming",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
           ]
         }
       ]
@@ -37,11 +146,72 @@
       "title": "Education",
       "exps": [
         {
-          "title": "RBC",
-          "subTitle": "hehe",
-          "description": "he asodijasldjaosdij aljsd ;laksjd ;lakjsd l;aksjd ;lakjsd;l akjsdhe",
-          "learnMoreLink": "asdasda",
+          "title": "Computational Biology",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
           "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Applications of Machine Learning in Life Sciences",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Machine Learning",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Artificial Intelligence",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Computational perception",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Other classes",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+            "auditing":true
           },
           "tags": [
             "Java",
@@ -54,10 +224,22 @@
       "title": "Other",
       "exps": [
         {
-          "title": "RBC",
-          "subTitle": "hehe",
-          "description": "he asodijasldjaosdij aljsd ;laksjd ;lakjsd l;aksjd ;lakjsd;l akjsdhe",
-          "learnMoreLink": "asdasda",
+          "title": "College Newspaper",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Math & Physics Clubs",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
           "flair": {
           },
           "tags": [

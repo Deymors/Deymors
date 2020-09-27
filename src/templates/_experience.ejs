@@ -1,4 +1,4 @@
-<div class="experience stars-full-blur">
+<div class="experience stars-full-blur" id="Experience">
     <h2>Experience</h2>
     <div class="experience__controller  stars-blur">
         <h5>Programming Languages:</h5>
@@ -25,7 +25,7 @@
     <div class="experience-container">
         <% for (let expList of list){ %>
             <div class="experience__container__list">
-                <h3 class=" stars-blur"><%= expList.title %></h3>
+                <h3 class=" stars-blur" id="<%= expList.title %>"><%= expList.title %></h3>
                 <div class="experience__container__list__boxes">
                     <% for (let exp of expList.exps){ %>
                         <div class="experience__container__list__boxes__box">
@@ -39,6 +39,11 @@
                             <div class="experience__container__list__boxes__box__description">
                                 <h4>
                                     <%= exp.title %>
+                                    <% if(exp.flair.auditing) { %>
+                                        <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--auditing">
+                                            <p>Auditing</p>
+                                        </div>
+                                    <% } %>
                                 </h4>
                                 <h5>
                                     <%= exp.subTitle %>
@@ -62,11 +67,6 @@
                                     </div>
                                 <% } %>
                             </div>
-                            <% if(exp.flair.auditing) { %>
-                                <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--auditing">
-                                    <h5>Auditing</h5>
-                                </div>
-                            <% } %>
                         </div>
                     <% } %>
                 </div>
