@@ -13,6 +13,8 @@
     "author": "Deymors <dima.dd.romanov@gmail.com>",
     "license": "MIT",
     "dependencies": {
+        "ejs": "^3.1.5",
+        "ejs-loader": "^0.5.0",
         "jquery": "^3.3.1"
     },
     "devDependencies": {

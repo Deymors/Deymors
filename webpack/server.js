@@ -4,24 +4,25 @@ const fs = require('fs');
 
 const Util = {
     getCommand: function () {
-        let cmd = "npm";
-        if (process.platform === "win32") {
+        let cmd = 'npm';
+        if (process.platform === 'win32') {
             cmd += '.cmd';
         }
         return cmd;
     },
     getFiles: (dir) => {
         let files = {};
-        fs.readdirSync(dir).forEach(file => {
-            files[file] = file;
-        });
+        fs.readdirSync(dir)
+            .forEach(file => {
+                files[file] = file;
+            });
         return files;
     },
     isHtml: (filename) => {
         const splitted = filename.split('.');
         return splitted[1] === 'html';
     }
-}
+};
 
 const Server = {
     process: null,
@@ -56,9 +57,9 @@ const Server = {
             }
         );
     }
-}
+};
 
-Server.watch('./src/html');
+Server.watch('./src/templates');
 
 
 

@@ -1,13 +1,13 @@
 <html lang="ru">
 <head>
-    <title>Boilerplate</title>
+    <title>Dima Romanov</title>
 <link href="./assets/css/styles.css" rel="stylesheet"></head>
 <body>
 <div class="stars" id="stars-container">
 </div>
 <script>
     let stars = document.getElementById("stars-container");
-    for (let i = 0; i < 34; i++) {
+    for (let i = 0; i < 17; i++) {
         let randLeft = Math.random()*100;
         let randDur = 4.0+Math.random()*10;
         let randOpacity = 0.3+Math.random()*0.7;
@@ -19,7 +19,9 @@
         stars.append(star);
     }
 </script>
+
 <header>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <div class="header-menu  stars-blur">
         <div class="header-menu__component">
             <h5>About</h5>
@@ -37,9 +39,10 @@
             <h5>Email</h5>
         </div>
         <div class="header-menu__mode-switch">
+            <h5>Theme:</h5>
             <div class="toggle transparent">
                 <label>
-                    <input type="checkbox" checked="checked">
+                    <input type="checkbox" class="theme-switch">
                     <span></span>
                 </label>
             </div>
@@ -49,21 +52,20 @@
 
 <div class="main">
     <div class="main__banner">
+        <div class="main__banner__image"></div>
         <h1>Dima Romanov</h1>
         <div class="main__banner__links">
-            <a class=" stars-blur" href="https://www.linkedin.com/in/dima-romanov-dd/">in:@dima-romanov-dd</a>
-            <br>
-            <br>
-            <a class=" stars-blur"  href="https://github.com/Deymors/">gh:@DEYMORS</a>
-            <br>
-            <br>
-            <a class=" stars-blur"  href="mailto:dima.dd.romanov@gmail.com">mail:dima.dd.romanov@gmail.com</a>
+            <div class="main__banner__links__container">
+                <a class=" stars-blur" href="https://www.linkedin.com/in/dima-romanov-dd/"><i class="fa fa-linkedin"></i>dima-romanov-dd</a>
+                <br>
+                <a class=" stars-blur" href="https://github.com/Deymors/"><i class="fa fa-github"></i>Deymors</a>
+                <br>
+                <a class=" stars-blur" href="mailto:dima.dd.romanov@gmail.com"><i class="fa fa-envelope"></i>dima.dd.romanov@gmail.com</a>
+            </div>
         </div>
-        <img src="/img/personal_w.png"
-             alt="Dima">
     </div>
     <div class="main__descriptions">
-        <div class="main__descriptions__text  stars-blur">
+        <div class="main__descriptions__text  stars-full-blur">
             <h5>Hi,</h5>
             <p>I am Dima Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien ipsum, pellentesque aliquam
                 eleifend sit amet, iaculis sed nibh. Phasellus malesuada turpis in malesuada tempus. Ut pharetra varius
@@ -88,7 +90,7 @@
         <div class="experience__controller__item">
             <h6>Java</h6>
         </div>
-        <div class="experience__controller__item">
+        <div class="experience__controller__item experience__controller__item--unselectable">
             <h6>Java</h6>
         </div>
         <div class="experience__controller__item">
@@ -112,8 +114,69 @@
         <div class="experience__controller__item">
             <h6>Java</h6>
         </div>
+        <div class="experience__controller__row-breaker"></div>
+        <span>* dashed line means that skill is used universally</span>
+        <br>
+        <br>
+        <br>
     </div>
+    <div class="experience__clear-button"><h5>Clear Selection</h5></div>
     <div class="experience-container">
+        
+            <div class="experience__container__list">
+                <h3 class=" stars-blur">title</h3>
+                <div class="experience__container__list__boxes">
+                    
+                        <div class="experience__container__list__boxes__box">
+                            <div class="experience__container__list__boxes__box__media">
+                                <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                
+                                    <img src="asdasda" alt="hehe">
+                                
+                                <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                            </div>
+                            <div class="experience__container__list__boxes__box__description">
+                                <h4>
+                                    
+                                </h4>
+                                <h5>
+                                    
+                                </h5>
+                                <p>
+                                    
+                                </p>
+                                <div class="experience__container__list__boxes__box__tags">
+                                    
+                                        <div class="experience__controller__item">
+                                            <h6>
+                                                
+                                            </h6>
+                                        </div>
+                                    
+                                        <div class="experience__controller__item">
+                                            <h6>
+                                                
+                                            </h6>
+                                        </div>
+                                    
+                                </div>
+                                
+                                    <div class="experience__container__list__boxes__box__learn-more"
+                                         link="">
+                                        <h5>Learn More</h5>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--auditing">
+                                    <h5>Auditing</h5>
+                                </div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        
         <div class="experience__container__list">
             <h3 class=" stars-blur">Work Experience</h3>
             <div class="experience__container__list__boxes">
@@ -268,6 +331,9 @@
         <span>© Dima Romanov</span>
     </div>
 </footer>
+
+<div class="loader"></div>
+<div class="loader-bg"></div>
 
 <script type="text/javascript" src="./assets/js/bundle.js"></script></body>
 </html>

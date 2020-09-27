@@ -1,21 +1,14 @@
-const fs = require('fs');
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-
-const htmlFileNames = fs.readdirSync('./src/html/');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const data = require('../data/data.json');
 
 const getEntries = () => {
     const entries = [
         './src/js/app.js',
         './src/scss/app.scss'
     ];
-
-    htmlFileNames.forEach(filename => {
-        entries.push(`./src/html/${filename}`);
-    });
 
     return entries;
 };
@@ -34,21 +27,14 @@ const getPlugins = () => {
         new ExtractTextPlugin({
             filename: './assets/css/styles.css',
             allChunks: true
-        })
-    ];
-    htmlFileNames.forEach(filename => {
-        if (filename.substr(0, 1) !== '_') {
-            const splitted = filename.split('.');
-            if (splitted[1] === 'html') {
-                plugins.push(
-                    new HtmlWebpackPlugin({
-                        template: `./src/html/${filename}`,
-                        filename: `./${filename}`
-                    }),
-                );
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/templates/index.ejs',
+            templateParameters: {
+                'data':data
             }
-        }
-    });
+        }),
+    ];
 
     return plugins;
 };
@@ -62,10 +48,10 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(html)$/,
-                loader: path.resolve(__dirname, 'loader/html-loader.js'),
+                test: /\.ejs$/,
+                loader: 'ejs-loader',
                 options: {
-                    html: htmlFileNames
+                    esModule: false
                 }
             },
             {
@@ -80,13 +66,13 @@ module.exports = {
                     fallback: 'style-loader',
                     use: [
                         {
-                            loader: "css-loader",
+                            loader: 'css-loader',
                             options: {
 
                                 url: false
                             }
                         }, {
-                            loader: "postcss-loader",
+                            loader: 'postcss-loader',
                             options: {
                                 ident: 'postcss',
                                 plugins: () => [
@@ -104,6 +90,6 @@ module.exports = {
         ],
     },
     resolve: {
-        extensions: ['.js', '.jpg', '.html', '.scss'],
+        extensions: ['.js', '.jpg', '.ejs', '.scss'],
     }
 };

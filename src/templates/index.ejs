@@ -1,0 +1,13 @@
+<html lang="ru">
+<head>
+    <title>Dima Romanov</title>
+</head>
+<body>
+<%= require('./_stars.ejs')() %>
+<%= require('./_header.ejs')() %>
+<%= require('./_main.ejs')() %>
+<%= require('./_experience.ejs')({ 'list':data.exps }) %>
+<%= require('./_footer.ejs')() %>
+<%= require('./_loader.ejs')() %>
+</body>
+</html>

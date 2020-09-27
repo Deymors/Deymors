@@ -1,0 +1,126 @@
+{
+  "exps": [
+    {
+      "title": "Work Experience",
+      "exps": [
+        {
+          "title": "RBC",
+          "subTitle": "hehe",
+          "description": "he asodijasldjaosdij aljsd ;laksjd ;lakjsd l;aksjd ;lakjsd;l akjsdhe",
+          "learnMoreLink": "asdasda",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Projects",
+      "exps": [
+        {
+          "title": "RBC",
+          "subTitle": "hehe",
+          "description": "he asodijasldjaosdij aljsd ;laksjd ;lakjsd l;aksjd ;lakjsd;l akjsdhe",
+          "learnMoreLink": "asdasda",
+          "flair": {
+          },
+          "tags": [
+            "Java"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "exps": [
+        {
+          "title": "RBC",
+          "subTitle": "hehe",
+          "description": "he asodijasldjaosdij aljsd ;laksjd ;lakjsd l;aksjd ;lakjsd;l akjsdhe",
+          "learnMoreLink": "asdasda",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Other",
+      "exps": [
+        {
+          "title": "RBC",
+          "subTitle": "hehe",
+          "description": "he asodijasldjaosdij aljsd ;laksjd ;lakjsd l;aksjd ;lakjsd;l akjsdhe",
+          "learnMoreLink": "asdasda",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Languages",
+      "exps": [
+        {
+          "title": "English",
+          "subTitle": "",
+          "description": "Fluent",
+          "flair": {
+          },
+          "tags": [
+            "Languages"
+          ]
+        },
+        {
+          "title": "French",
+          "subTitle": "",
+          "description": "Full professional proficiency",
+          "flair": {
+          },
+          "tags": [
+            "Languages"
+          ]
+        },
+        {
+          "title": "Russian",
+          "subTitle": "",
+          "description": "Native",
+          "flair": {
+          },
+          "tags": [
+            "Languages"
+          ]
+        },
+        {
+          "title": "Polish",
+          "subTitle": "",
+          "description": "Fluent",
+          "flair": {
+          },
+          "tags": [
+            "Languages"
+          ]
+        },
+        {
+          "title": "Ukrainian",
+          "subTitle": "",
+          "description": "Native",
+          "flair": {
+          },
+          "tags": [
+            "Languages"
+          ]
+        }
+      ]
+    }
+  ]
+}
