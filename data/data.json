@@ -90,7 +90,7 @@
           "title": "Nutriboom",
           "subTitle": "sub",
           "description": "description",
-          "learnMoreLink": "",
+          "imgLink": "/img/nutriboom.png",
           "flair": {
           },
           "tags": [
@@ -102,7 +102,7 @@
           "title": "Locite",
           "subTitle": "sub",
           "description": "description",
-          "learnMoreLink": "",
+          "imgLink": "/img/locite.png",
           "flair": {
           },
           "tags": [
@@ -114,7 +114,7 @@
           "title": "Fireworks Simulator",
           "subTitle": "sub",
           "description": "description",
-          "learnMoreLink": "",
+          "imgLink": "/img/fireWork.png",
           "flair": {
           },
           "tags": [
@@ -126,7 +126,7 @@
           "title": "Food Delivery App Prototype",
           "subTitle": "sub",
           "description": "description",
-          "learnMoreLink": "",
+          "imgLink": "/img/food.png",
           "flair": {
           },
           "tags": [
@@ -136,6 +136,18 @@
         },
         {
           "title": "Competitive Programming",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Other",
           "subTitle": "sub",
           "description": "description",
           "learnMoreLink": "",
@@ -165,12 +177,13 @@
           ]
         },
         {
-          "title": "Applications of Machine Learning in Life Sciences",
+          "title": "Applications of Machine Learning in Real World Systems",
           "subTitle": "sub",
           "description": "description",
           "learnMoreLink": "",
           "imgLink": "/img/mcgill.png",
           "flair": {
+            "auditing":true
           },
           "tags": [
             "Java",
@@ -223,7 +236,20 @@
           "learnMoreLink": "",
           "imgLink": "/img/mcgill.png",
           "flair": {
-            "auditing":true
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Blockchain Fundamentals",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "imgLink": "/img/blockchain.png",
+          "flair": {
+            "auditing": true
           },
           "tags": [
             "Java",
@@ -249,6 +275,54 @@
         },
         {
           "title": "Math & Physics Clubs",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Political Club",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Mathematics Competitions",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Debating & Public Speaking",
+          "subTitle": "sub",
+          "description": "description",
+          "learnMoreLink": "",
+          "flair": {
+          },
+          "tags": [
+            "Java",
+            "C++"
+          ]
+        },
+        {
+          "title": "Design",
           "subTitle": "sub",
           "description": "description",
           "learnMoreLink": "",

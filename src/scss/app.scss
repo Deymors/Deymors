@@ -17,7 +17,7 @@
   --blur: radial-gradient(rgba(40,40,40,0.8) 90%, rgba(0,0,0,0));
   --full-blur: radial-gradient(rgba(40,40,40,0.99) 90%, rgba(0,0,0,0));
   --image: url("/img/personal_b.png");
-  --dark-brightness: brightness(10.0);
+  --dark-brightness: invert();
 }
 
 
