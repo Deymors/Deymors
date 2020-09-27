@@ -8,6 +8,8 @@
           "subTitle": "sub",
           "description": "description",
           "learnMoreLink": "",
+          "imgLink": "/img/mila.png",
+          "imgDark": true,
           "flair": {
           },
           "tags": [
@@ -20,6 +22,7 @@
           "subTitle": "sub",
           "description": "description",
           "learnMoreLink": "",
+          "imgLink": "/img/rbc.png",
           "flair": {
           },
           "tags": [
@@ -32,6 +35,7 @@
           "subTitle": "sub",
           "description": "description",
           "learnMoreLink": "",
+          "imgLink": "/img/mcgill.png",
           "flair": {
           },
           "tags": [
@@ -44,6 +48,8 @@
           "subTitle": "sub",
           "description": "description",
           "learnMoreLink": "",
+          "imgLink": "/img/interfacing.png",
+          "imgDark": true,
           "flair": {
           },
           "tags": [
@@ -150,6 +156,7 @@
           "subTitle": "sub",
           "description": "description",
           "learnMoreLink": "",
+          "imgLink": "/img/mcgill.png",
           "flair": {
           },
           "tags": [
@@ -162,6 +169,7 @@
           "subTitle": "sub",
           "description": "description",
           "learnMoreLink": "",
+          "imgLink": "/img/mcgill.png",
           "flair": {
           },
           "tags": [
@@ -174,6 +182,7 @@
           "subTitle": "sub",
           "description": "description",
           "learnMoreLink": "",
+          "imgLink": "/img/mcgill.png",
           "flair": {
           },
           "tags": [
@@ -186,6 +195,7 @@
           "subTitle": "sub",
           "description": "description",
           "learnMoreLink": "",
+          "imgLink": "/img/mcgill.png",
           "flair": {
           },
           "tags": [
@@ -198,6 +208,7 @@
           "subTitle": "sub",
           "description": "description",
           "learnMoreLink": "",
+          "imgLink": "/img/mcgill.png",
           "flair": {
           },
           "tags": [
@@ -210,6 +221,7 @@
           "subTitle": "sub",
           "description": "description",
           "learnMoreLink": "",
+          "imgLink": "/img/mcgill.png",
           "flair": {
             "auditing":true
           },

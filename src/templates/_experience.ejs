@@ -32,7 +32,11 @@
                             <div class="experience__container__list__boxes__box__media">
                                 <div class="experience__container__list__boxes__box__media__line-top"></div>
                                 <% if(exp.imgLink) { %>
-                                    <img src="<%= exp.imgLink %>" alt="hehe">
+                                    <img src="<%= exp.imgLink %>"
+                                    <% if(exp.imgDark) { %>
+                                         class="dark-image"
+                                            <% } %>
+                                         alt="hehe">
                                 <% } %>
                                 <div class="experience__container__list__boxes__box__media__line-bottom"></div>
                             </div>

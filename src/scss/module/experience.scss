@@ -143,6 +143,10 @@
               height: 100px;
             }
 
+            .dark-image{
+              filter:var(--dark-brightness);
+            }
+
             &__line-top {
               height: 30px;
             }
@@ -165,6 +169,9 @@
 
           &__media:hover {
             filter: none;
+            img{
+              filter: none;
+            }
           }
 
           &__description {
@@ -210,17 +217,31 @@
             p {
               color: var(--secondary-color);
               border-radius: $xl;
-              padding: $m;
+              padding: $s+$xxs;
               background: var(--primary-color);
-              margin: 0;
+              margin: $xs;
+            }
+            &--auditing{
+              p{
+                background: var(--yellow);
+              }
+            }
+          }
+          &:hover {
+            transform: scale(1.02);
+            transition-duration: 0.5s;
+            & * {
+              filter:none;
+              img {
+                filter:none;
+              }
+              .dark-image{
+                filter:brightness(1.7);
+              }
             }
           }
         }
 
-        &__box:hover {
-          transform: scale(1.02);
-          transition-duration: 0.5s;
-        }
       }
     }
   }

@@ -85,6 +85,10 @@ $(document)
                 .hide()
                 .fadeIn();
             $('.experience__controller__item--selected').removeClass('experience__controller__item--selected');
+            $(this)
+                .css('display', 'none')
+                .hide()
+                .fadeOut();
         });
     });
 
