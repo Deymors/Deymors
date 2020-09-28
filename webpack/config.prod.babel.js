@@ -15,13 +15,13 @@ const getEntries = () => {
 
 const getPlugins = () => {
     const plugins = [
-        new CleanWebpackPlugin('dist', {
+        new CleanWebpackPlugin('docs', {
             root: __dirname + '/../'
         }),
         new CopyWebpackPlugin([
             {
                 from: __dirname + '/../src/assets/',
-                to: __dirname + '/../dist/assets/'
+                to: __dirname + '/../docs/assets/'
             }
         ]),
         new ExtractTextPlugin({
