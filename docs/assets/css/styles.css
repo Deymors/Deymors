@@ -3,21 +3,21 @@
 :root {
     --yellow: #bf8c1b;
     --blue: #188a8a;
-    --primary-color: #272727;
-    --secondary-color: #f5f5f5;
-    --blur: radial-gradient(hsla(0, 0%, 96.1%, 0.9) 90%, transparent);
-    --full-blur: radial-gradient(hsla(0, 0%, 96.1%, 0.99) 90%, transparent);
-    --image: url("/Deymors/assets/img/personal_w.png");
-    --dark-brightness: brightness(1.0)
-}
-
-[data-theme=dark] {
     --primary-color: #f5f5f5;
     --secondary-color: #272727;
     --blur: radial-gradient(rgba(40, 40, 40, 0.8) 90%, transparent);
     --full-blur: radial-gradient(rgba(40, 40, 40, 0.99) 90%, transparent);
     --image: url("/Deymors/assets/img/personal_b.png");
-    --dark-brightness: invert()
+    --dark-brightness: invert();
+}
+
+[data-theme=dark] {
+    --primary-color: #272727;
+    --secondary-color: #f5f5f5;
+    --blur: radial-gradient(hsla(0, 0%, 96.1%, 0.9) 90%, transparent);
+    --full-blur: radial-gradient(hsla(0, 0%, 96.1%, 0.99) 90%, transparent);
+    --image: url("/Deymors/assets/img/personal_w.png");
+    --dark-brightness: brightness(1.0);
 }
 
 .grid-row {
