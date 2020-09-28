@@ -5,56 +5,71 @@
       "exps": [
         {
           "title": "Mila",
-          "subTitle": "sub",
-          "description": "description",
+          "subTitle": "Research Intern, Fall 2020",
+          "description": "<span>&#8226;</span> Working on research into partially observed reinforcement learning <br><br> <span>&#8226;</span> Updates are coming soon!",
           "learnMoreLink": "",
           "imgLink": "/img/mila.png",
           "imgDark": true,
           "flair": {
+            "present": true
           },
           "tags": [
-            "Java",
-            "C++"
+            "Julia",
+            "Python",
+            "OpenAI Gym"
           ]
         },
         {
           "title": "RBC",
-          "subTitle": "sub",
-          "description": "description",
+          "subTitle": "Software Developer Intern on Omni Team, Summer 2020",
+          "description": "<span>&#8226;</span> Worked on the sign-up process for new clients using Java Spring Boot<br><br><span>&#8226;</span> Collaborated with designers on developing business critical features using Angular and Typescript in an Agile environment<br><br><span>&#8226;</span> Acted as team’s scrum master and organized several technological share events for dozens of RBC employees and interns <br><br><span>&#8226;</span> Volunteered to teach children coding through an online camp",
           "learnMoreLink": "",
           "imgLink": "/img/rbc.png",
           "flair": {
           },
           "tags": [
             "Java",
-            "C++"
+            "Typescript",
+            "Javascript",
+            "Angular.js",
+            "SpringBoot",
+            "Maven",
+            "Node.js"
           ]
         },
         {
           "title": "McGill University Research Centre for Studies in Aging",
-          "subTitle": "sub",
-          "description": "description",
-          "learnMoreLink": "",
+          "subTitle": "Developer, Mar 2020-Present",
+          "description": "<span>&#8226;</span> Leading the development of cognitive tests to detect and treat neurodegenerative diseases<br><br><span>&#8226;</span> Developed a REST API and an admin web dashboard using Node.js and MongoDB for an effective surveying and testing of participants<br><br><span>&#8226;</span> Configured Ubuntu servers using Nginx",
           "imgLink": "/img/mcgill.png",
           "flair": {
+            "present": true
           },
           "tags": [
-            "Java",
-            "C++"
+            "Javascript",
+            "MongoDB",
+            "Node.js",
+            "EJS",
+            "Nginx"
           ]
         },
         {
           "title": "Interfacing Technologies",
-          "subTitle": "sub",
-          "description": "description",
+          "subTitle": "Analyst Developer Intern, Oct 2019-Mar 2020",
+          "description": "<span>&#8226;</span> Spearheaded the development of an Intelligent Document Parser<br><br><span>&#8226;</span> Designed application’s architecture and parsing algorithm; achieved parsing accuracy of 96%<br><br><span>&#8226;</span> Built a REST API using Node.js, MongoDB, and React; deployed the project using Docker and Azure<br><br>",
           "learnMoreLink": "",
           "imgLink": "/img/interfacing.png",
+          "learnMoreLink": "https://www.youtube.com/watch?v=IAenvoblbsU",
           "imgDark": true,
           "flair": {
           },
           "tags": [
-            "Java",
-            "C++"
+            "Javascript",
+            "Node.js",
+            "Azure",
+            "React.js",
+            "Typescript",
+            "Docker"
           ]
         }
       ]
@@ -64,98 +79,108 @@
       "exps": [
         {
           "title": "Babbl",
-          "subTitle": "sub",
-          "description": "description",
-          "learnMoreLink": "",
+          "subTitle": "Co-founder, May 2020-Present",
+          "description": "<span>&#8226;</span> Building a voice only social media mobile application using Flutter<br><br><span>&#8226;</span> Leading the development process of the team of three<br><br><span>&#8226;</span> Designed application's architecture; optimized database calls by 80% (Firestore and Firebase)<br><br><span>&#8226;</span> Created a system of background processes and streams to ensure a background audio playback and data fetching",
+          "imgLink": "/img/babbl.png",
+          "learnMoreLink": "https://www.babbl.app/welcome",
           "flair": {
+            "present": true
           },
           "tags": [
-            "Java",
-            "C++"
+            "Flutter",
+            "FireStore",
+            "FireBase",
+            "Dart"
           ]
         },
         {
           "title": "Kima",
-          "subTitle": "sub",
-          "description": "description",
-          "learnMoreLink": "",
+          "subTitle": "",
+          "description": "<span>&#8226;</span> Early development stage; something exciting is coming here!",
+          "imgLink": "/img/kima.png",
           "flair": {
+            "present": true
           },
           "tags": [
-            "Java",
-            "C++"
+            "Tensorflow.js",
+            "Javascript",
+            "Node.js"
           ]
         },
         {
           "title": "Nutriboom",
-          "subTitle": "sub",
-          "description": "description",
+          "subTitle": "Hack the Globe 2020 (Hackathon)",
+          "description": "<span>&#8226;</span> Built an SMS messenger bot collecting information about the consumption of food in communities which suffer from malnutrition<br><br><span>&#8226;</span> Worked with several professionals from NGOs to formulate and develop a prototype solution which would successfully address the problem",
           "imgLink": "/img/nutriboom.png",
           "flair": {
           },
           "tags": [
-            "Java",
-            "C++"
+            "Python",
+            "Flask.py",
+            "Twilio"
           ]
         },
         {
           "title": "Locite",
-          "subTitle": "sub",
-          "description": "description",
+          "subTitle": "MariHacks 2019",
+          "description": "<span>&#8226;</span> Built a website displaying information about genetic features and diseases<br><br><span>&#8226;</span> Built a web-scraper collecting the information from the NCBI",
           "imgLink": "/img/locite.png",
           "flair": {
           },
           "tags": [
-            "Java",
-            "C++"
-          ]
-        },
-        {
-          "title": "Fireworks Simulator",
-          "subTitle": "sub",
-          "description": "description",
-          "imgLink": "/img/fireWork.png",
-          "flair": {
-          },
-          "tags": [
-            "Java",
-            "C++"
-          ]
-        },
-        {
-          "title": "Food Delivery App Prototype",
-          "subTitle": "sub",
-          "description": "description",
-          "imgLink": "/img/food.png",
-          "flair": {
-          },
-          "tags": [
-            "Java",
-            "C++"
+            "Python",
+            "Flask.py",
+            "BeautifulSoup.py",
+            "Three.js"
           ]
         },
         {
           "title": "Competitive Programming",
-          "subTitle": "sub",
-          "description": "description",
+          "subTitle": "",
+          "description": "<span>&#8226;</span> Been participating in programming competitions for around past 5 years<br><br><span>&#8226;</span> Got the highest provincial score in Canadian Computing Competition twice (2017,2019)",
           "learnMoreLink": "",
           "flair": {
           },
           "tags": [
             "Java",
-            "C++"
+            "C/C++"
+          ]
+        },
+        {
+          "title": "Fireworks Simulator",
+          "subTitle": "McGill Physics Hackathon 2016",
+          "description": "<span>&#8226;</span> Built a firework simulator which mimics the behavior of actual fireworks including their structure and materials",
+          "imgLink": "/img/fireWork.png",
+          "flair": {
+          },
+          "tags": [
+            "C#",
+            "Unity"
+          ]
+        },
+        {
+          "title": "Food Delivery App Prototype",
+          "subTitle": "2016",
+          "description": "<span>&#8226;</span> Built a small prototype mobile cross-platform application for a food-delivery app(experimenting with Xamarin)",
+          "imgLink": "/img/food.png",
+          "flair": {
+          },
+          "tags": [
+            "C#",
+            "Xamarin"
           ]
         },
         {
           "title": "Other",
-          "subTitle": "sub",
-          "description": "description",
+          "subTitle": "",
+          "description": "Here are the outlines of some other projects I have been working previously:<br><br><span>&#8226;</span> WordPress custom theme together with an admin panel and custom plugins written in PHP 2018<br><br><span>&#8226;</span> Class scheduler written in Javascript 2018<br><br><span>&#8226;</span> AI agent playing an online game using a mini-max algorithm written in JAVA 2016",
           "learnMoreLink": "",
           "flair": {
           },
           "tags": [
-            "Java",
-            "C++"
+            "Javascript",
+            "PHP",
+            "C/C++"
           ]
         }
       ]
@@ -164,96 +189,95 @@
       "title": "Education",
       "exps": [
         {
-          "title": "Computational Biology",
-          "subTitle": "sub",
-          "description": "description",
-          "learnMoreLink": "",
-          "imgLink": "/img/mcgill.png",
-          "flair": {
-          },
-          "tags": [
-            "Java",
-            "C++"
-          ]
-        },
-        {
-          "title": "Applications of Machine Learning in Real World Systems",
-          "subTitle": "sub",
-          "description": "description",
-          "learnMoreLink": "",
-          "imgLink": "/img/mcgill.png",
-          "flair": {
-            "auditing":true
-          },
-          "tags": [
-            "Java",
-            "C++"
-          ]
-        },
-        {
           "title": "Machine Learning",
-          "subTitle": "sub",
-          "description": "description",
+          "subTitle": "Winter 2020",
+          "description": "<span>&#8226;</span> A graduate level class covering machine learning<br><br>Class projects:<br><br><span>&#8226;</span> Image classifier<br><br><span>&#8226;</span> Text classifier<br><br><span>&#8226;</span> Implementations of basic machine learning models",
           "learnMoreLink": "",
           "imgLink": "/img/mcgill.png",
           "flair": {
           },
           "tags": [
-            "Java",
-            "C++"
+            "Python",
+            "Pytorch"
           ]
         },
         {
           "title": "Artificial Intelligence",
-          "subTitle": "sub",
-          "description": "description",
+          "subTitle": "Winter 2020",
+          "description": "<span>&#8226;</span> Class covering multiple areas related to artificial intelligence starting with simple A* and ending with reinforcement learning<br><br><span>&#8226;</span> Final project consisted of writing an AI agent playing a game called Saboteur",
           "learnMoreLink": "",
           "imgLink": "/img/mcgill.png",
           "flair": {
           },
           "tags": [
-            "Java",
-            "C++"
+            "Java"
           ]
         },
         {
           "title": "Computational perception",
-          "subTitle": "sub",
-          "description": "description",
+          "subTitle": "Winter 2020",
+          "description": "<span>&#8226;</span> An interesting class covering how humans perceive the real world through their eyes and ears<br><br><span>&#8226;</span> It analyzes behind the scenes processes in our brain and how we can mimic them in software development",
           "learnMoreLink": "",
           "imgLink": "/img/mcgill.png",
           "flair": {
           },
           "tags": [
+            "MATLAB"
+          ]
+        },
+        {
+          "title": "Computational Biology",
+          "subTitle": "Fall 2020",
+          "description": "<span>&#8226;</span> A graduate level class covering the applications of software development in natural sciences<br><br><span>&#8226;</span> Final project: coming soon!",
+          "learnMoreLink": "",
+          "imgLink": "/img/mcgill.png",
+          "flair": {
+            "present": true
+          },
+          "tags": [
             "Java",
-            "C++"
+            "C/C++",
+            "Python"
+          ]
+        },
+        {
+          "title": "Applications of Machine Learning in Real World Systems",
+          "subTitle": "Fall 2020",
+          "description": "<span>&#8226;</span> A graduate level class teaching how to apply machine learning algorithms on solving real-world problems",
+          "learnMoreLink": "",
+          "imgLink": "/img/mcgill.png",
+          "flair": {
+            "auditing": true,
+            "present": true
+          },
+          "tags": [
           ]
         },
         {
           "title": "Other classes",
-          "subTitle": "sub",
-          "description": "description",
+          "subTitle": "",
+          "description": "<span>&#8226;</span> Competitive Programming (Fall 2020)<br><br><span>&#8226;</span> Functional Programming (Fall 2020)<br><br><span>&#8226;</span> Honors Algorithms and Data structures (Winter 2020)<br><br><span>&#8226;</span> Introduction to Computer Science (Fall 2019)<br><br><span>&#8226;</span> Introduction to Software Systems (Fall 2019)",
           "learnMoreLink": "",
           "imgLink": "/img/mcgill.png",
           "flair": {
           },
           "tags": [
             "Java",
-            "C++"
+            "C/C++",
+            "OCaml"
           ]
         },
         {
           "title": "Blockchain Fundamentals",
-          "subTitle": "sub",
-          "description": "description",
-          "learnMoreLink": "",
+          "subTitle": "Fall 2020",
+          "description": "<span>&#8226;</span> Listening to an online course made by BLOCKCHAIN AT BERKELEY. Always wanted to learn more about the topic<br><br><span> Most likely will do more research/little projects on the side to better understand the field",
+          "learnMoreLink": "https://blockchain.berkeley.edu/courses/fall-2020-fundamentals-webinar/",
           "imgLink": "/img/blockchain.png",
           "flair": {
-            "auditing": true
+            "auditing": true,
+            "present": true
           },
           "tags": [
-            "Java",
-            "C++"
           ]
         }
       ]
@@ -263,74 +287,59 @@
       "exps": [
         {
           "title": "College Newspaper",
-          "subTitle": "sub",
-          "description": "description",
+          "subTitle": "Chief Editor, 2018-2019",
+          "description": "<span>&#8226;</span> Coordinated a team of over 40 editors and writers<br><br><span>&#8226;</span> Set the general direction of the paper",
           "learnMoreLink": "",
           "flair": {
           },
           "tags": [
-            "Java",
-            "C++"
-          ]
-        },
-        {
-          "title": "Math & Physics Clubs",
-          "subTitle": "sub",
-          "description": "description",
-          "learnMoreLink": "",
-          "flair": {
-          },
-          "tags": [
-            "Java",
-            "C++"
+            "Student Leadership"
           ]
         },
         {
           "title": "Political Club",
-          "subTitle": "sub",
-          "description": "description",
+          "subTitle": "Co-founder, 2018-2019",
+          "description": "<span>&#8226;</span> Co-founded a political club<br><br><span>&#8226;</span> Organized several events with members of parliament and a Canadian Minister",
           "learnMoreLink": "",
           "flair": {
           },
           "tags": [
-            "Java",
-            "C++"
+            "Student Leadership"
           ]
         },
         {
           "title": "Mathematics Competitions",
-          "subTitle": "sub",
-          "description": "description",
+          "subTitle": "",
+          "description": "Been participating in a lot of mathematics competition over the years; here a few of them:<br><br><span>&#8226;</span> Canadian Math Olympiad Qualifier 2018<br><br><span>&#8226;</span> Michel-Girard prize in 2017 and 2019 (Awarded to the winner of the Math competition organized by Quebec Mathematical Association)<br><br><span>&#8226;</span> AIME qualifier",
           "learnMoreLink": "",
           "flair": {
           },
           "tags": [
-            "Java",
-            "C++"
           ]
         },
         {
           "title": "Debating & Public Speaking",
-          "subTitle": "sub",
-          "description": "description",
+          "subTitle": "",
+          "description": "<span>&#8226;</span> Participated in several debate, business case, Model United Nations competitions and won several awards<br><br><span>&#8226;</span> Was a member of my school's international delegation for Harvard WorldMun 2019",
           "learnMoreLink": "",
           "flair": {
           },
           "tags": [
-            "Java",
-            "C++"
+            "Student Leadership"
           ]
         },
         {
           "title": "Design",
-          "subTitle": "sub",
-          "description": "description",
-          "learnMoreLink": "",
+          "subTitle": "",
+          "description": "<span>&#8226;</span> Did various small various projects related to design in photo-editing and 3D modelling<br><br><span>&#8226;</span> Modeled renders for the Polish satellite PW-sat 2 in 2014(link is below)",
+          "learnMoreLink": "https://pw-sat.pl/en/short-summary-of-phase-a/",
           "flair": {
           },
           "tags": [
-            "Java",
-            "C++"
+            "Figma",
+            "Cinema4D",
+            "Photoshop",
+            "Blender"
           ]
         }
       ]

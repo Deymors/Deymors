@@ -223,7 +223,14 @@
             }
             &--auditing{
               p{
+                color:$white;
                 background: var(--yellow);
+              }
+            }
+            &--present{
+              p{
+                color:$white;
+                background: var(--blue);
               }
             }
           }

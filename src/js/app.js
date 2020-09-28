@@ -21,7 +21,8 @@ $(document)
                     .hasClass('experience__controller__item--selected')) {
                     $(`div[skill='${skillName}']`)
                         .removeClass('experience__controller__item--selected');
-                    if (isSelectionActive) {
+                    isSelectionActive = $('.experience__controller__item--selected').length !== 0;
+                    if (!isSelectionActive) {
                         $('.experience__clear-button')
                             .css('display', 'none')
                             .hide()
@@ -89,6 +90,10 @@ $(document)
                 .css('display', 'none')
                 .hide()
                 .fadeOut();
+        });
+        $('.experience__container__list__boxes__box__learn-more').on('click',function (){
+            const link = $(this).attr('link');
+            window.open(link);
         });
     });
 

@@ -5,15 +5,75 @@
         <div class="experience__controller__item" skill="Java">
             <h6>Java</h6>
         </div>
+        <div class="experience__controller__item" skill="Javascript">
+            <h6>Javascript</h6>
+        </div>
+        <div class="experience__controller__item" skill="Python">
+            <h6>Python</h6>
+        </div>
+        <div class="experience__controller__item" skill="C/C++">
+            <h6>C/C++</h6>
+        </div>
+        <div class="experience__controller__item" skill="Julia">
+            <h6>Julia</h6>
+        </div>
+        <div class="experience__controller__item" skill="Typescript">
+            <h6>Dart</h6>
+        </div>
+        <div class="experience__controller__item" skill="Typescript">
+            <h6>Typescript</h6>
+        </div>
+        <div class="experience__controller__item" skill="C#">
+            <h6>C#</h6>
+        </div>
+        <div class="experience__controller__item" skill="MATLAB">
+            <h6>MATLAB</h6>
+        </div>
+        <div class="experience__controller__item experience__controller__item--unselectable" skill="HTML&CSS">
+            <h6>HTML&CSS</h6>
+        </div>
+        <div class="experience__controller__item experience__controller__item--unselectable" skill="Bash">
+            <h6>Bash</h6>
+        </div>
         <div class="experience__controller__row-breaker"></div>
         <h5>Technologies:</h5>
         <div class="experience__controller__item" skill="Flutter">
             <h6>Flutter</h6>
         </div>
+        <div class="experience__controller__item" skill="SpringBoot">
+            <h6>SpringBoot</h6>
+        </div>
+        <div class="experience__controller__item" skill="Pytorch">
+            <h6>Pytorch</h6>
+        </div>
+        <div class="experience__controller__item" skill="OpenAI Gym">
+            <h6>OpenAI Gym</h6>
+        </div>
+        <div class="experience__controller__item" skill="MongoDB">
+            <h6>MongoDB</h6>
+        </div>
+        <div class="experience__controller__item" skill="Angular.js">
+            <h6>Angular.js</h6>
+        </div>
+        <div class="experience__controller__item" skill="React.js">
+            <h6>React.js</h6>
+        </div>
+        <div class="experience__controller__item experience__controller__item--unselectable" skill="Git">
+            <h6>Git</h6>
+        </div>
+        <div class="experience__controller__item experience__controller__item--unselectable" skill="Jira">
+            <h6>Jira</h6>
+        </div>
         <div class="experience__controller__row-breaker"></div>
         <h5>Other:</h5>
-        <div class="experience__controller__item" skill="English">
-            <h6>English</h6>
+        <div class="experience__controller__item" skill="Languages">
+            <h6>Languages</h6>
+        </div>
+        <div class="experience__controller__item" skill="Student Leadership">
+            <h6>Student Leadership</h6>
+        </div>
+        <div class="experience__controller__item" skill="Design">
+            <h6>Design</h6>
         </div>
         <div class="experience__controller__row-breaker"></div>
         <span>* dashed line means that skill is used universally</span>
@@ -27,52 +87,120 @@
             <div class="experience__container__list">
                 <h3 class=" stars-blur" id="<%= expList.title %>"><%= expList.title %></h3>
                 <div class="experience__container__list__boxes">
-                    <% for (let exp of expList.exps){ %>
-                        <div class="experience__container__list__boxes__box">
-                            <div class="experience__container__list__boxes__box__media">
-                                <div class="experience__container__list__boxes__box__media__line-top"></div>
-                                <% if(exp.imgLink) { %>
-                                    <img src="<%= exp.imgLink %>"
-                                    <% if(exp.imgDark) { %>
-                                         class="dark-image"
-                                            <% } %>
-                                         alt="hehe">
-                                <% } %>
-                                <div class="experience__container__list__boxes__box__media__line-bottom"></div>
-                            </div>
-                            <div class="experience__container__list__boxes__box__description">
-                                <h4>
-                                    <%= exp.title %>
-                                    <% if(exp.flair.auditing) { %>
-                                        <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--auditing">
-                                            <p>Auditing</p>
-                                        </div>
+                    <div class="experience__container__list__boxes__column">
+                        <% let count = 0 %>
+                        <% for (let exp of expList.exps){ %>
+                            <% count++ %>
+                            <% if(count % 2 == 0) { %>
+                                <% continue %>
+                            <% } %>
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    <% if(exp.imgLink) { %>
+                                        <img src="<%= exp.imgLink %>"
+                                        <% if(exp.imgDark) { %>
+                                             class="dark-image"
+                                                <% } %>
+                                             alt="hehe">
                                     <% } %>
-                                </h4>
-                                <h5>
-                                    <%= exp.subTitle %>
-                                </h5>
-                                <p>
-                                    <%= exp.description %>
-                                </p>
-                                <div class="experience__container__list__boxes__box__tags">
-                                    <% for (let tag of exp.tags){ %>
-                                        <div class="experience__controller__item" skill="<%= tag %>">
-                                            <h6>
-                                                <%= tag %>
-                                            </h6>
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        <%= exp.title %>
+                                        <% if(exp.flair.auditing) { %>
+                                            <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--auditing">
+                                                <p>Auditing</p>
+                                            </div>
+                                        <% } %>
+                                        <% if(exp.flair.present) { %>
+                                            <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--present">
+                                                <p>Present</p>
+                                            </div>
+                                        <% } %>
+                                    </h4>
+                                    <h5>
+                                        <%= exp.subTitle %>
+                                    </h5>
+                                    <p>
+                                        <%= exp.description %>
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        <% for (let tag of exp.tags){ %>
+                                            <div class="experience__controller__item" skill="<%= tag %>">
+                                                <h6>
+                                                    <%= tag %>
+                                                </h6>
+                                            </div>
+                                        <% } %>
+                                    </div>
+                                    <% if(exp.learnMoreLink) { %>
+                                        <div class="experience__container__list__boxes__box__learn-more" link="<%= exp.learnMoreLink %>">
+                                            <h5>Learn More</h5>
                                         </div>
                                     <% } %>
                                 </div>
-                                <% if(exp.learnMoreLink) { %>
-                                    <div class="experience__container__list__boxes__box__learn-more"
-                                         link="<% exp.learnMoreLink %>">
-                                        <h5>Learn More</h5>
-                                    </div>
-                                <% } %>
                             </div>
-                        </div>
-                    <% } %>
+                        <% } %>
+                    </div>
+                    <div class="experience__container__list__boxes__column">
+                        <% let count1 = 0 %>
+                        <% for (let exp of expList.exps){ %>
+                            <% count1++ %>
+                            <% if(count1 % 2 == 1) { %>
+                                <% continue %>
+                            <% } %>
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    <% if(exp.imgLink) { %>
+                                        <img src="<%= exp.imgLink %>"
+                                        <% if(exp.imgDark) { %>
+                                             class="dark-image"
+                                                <% } %>
+                                             alt="hehe">
+                                    <% } %>
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        <%= exp.title %>
+                                        <% if(exp.flair.auditing) { %>
+                                            <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--auditing">
+                                                <p>Auditing</p>
+                                            </div>
+                                        <% } %>
+                                        <% if(exp.flair.present) { %>
+                                            <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--present">
+                                                <p>Present</p>
+                                            </div>
+                                        <% } %>
+                                    </h4>
+                                    <h5>
+                                        <%= exp.subTitle %>
+                                    </h5>
+                                    <p>
+                                        <%= exp.description %>
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        <% for (let tag of exp.tags){ %>
+                                            <div class="experience__controller__item" skill="<%= tag %>">
+                                                <h6>
+                                                    <%= tag %>
+                                                </h6>
+                                            </div>
+                                        <% } %>
+                                    </div>
+                                    <% if(exp.learnMoreLink) { %>
+                                        <div class="experience__container__list__boxes__box__learn-more" link="<% exp.learnMoreLink %>">
+                                            <h5>Learn More</h5>
+                                        </div>
+                                    <% } %>
+                                </div>
+                            </div>
+                        <% } %>
+                    </div>
                 </div>
                 <div class="experience__container__list__dots">
                     <div class="experience__container__list__dots__dot"></div>

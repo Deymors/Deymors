@@ -2,10 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
 
 :root {
-  --yellow: #e4a61b;
+  --yellow: #bf8c1b;
+  --blue: #188a8a;
   --primary-color: #272727;
   --secondary-color: #f5f5f5;
   --blur: radial-gradient(rgba(245,245,245,0.9) 90%, rgba(0,0,0,0));
+  --full-blur: radial-gradient(rgba(245,245,245,0.99) 90%, rgba(0,0,0,0));
   --full-blur: radial-gradient(rgba(245,245,245,0.99) 90%, rgba(0,0,0,0));
   --image: url("/img/personal_w.png");
   --dark-brightness: brightness(1.0);
