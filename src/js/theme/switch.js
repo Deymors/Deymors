@@ -10,5 +10,3 @@ export function switchTheme(e) {
         localStorage.setItem('theme', 'light');
     }
 }
-
-
