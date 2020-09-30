@@ -1,0 +1,1679 @@
+<html lang="ru">
+<head>
+    <title>Dima Romanov</title>
+<link href="./assets/css/styles.css" rel="stylesheet"></head>
+<body>
+<div class="stars" id="stars-container">
+</div>
+<script>
+    let stars = document.getElementById("stars-container");
+    for (let i = 0; i < 17; i++) {
+        let randLeft = Math.random()*100;
+        let randDur = 4.0+Math.random()*10;
+        let randOpacity = 0.3+Math.random()*0.7;
+        let star = document.createElement('div');
+        star.className = "stars__star";
+        star.style.left=randLeft+'%';
+        star.style.animationDuration = randDur+'s';
+        star.style.opacity = randOpacity;
+        stars.append(star);
+    }
+</script>
+
+<header>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="header-menu  stars-blur">
+        <div class="header-menu__component">
+            <h5><a href="#About">About</a></h5>
+        </div>
+        <div class="header-menu__component">
+            <h5><a href="#Experience">Experience</a></h5>
+        </div>
+        <div class="header-menu__component" >
+            <h5><a href="#Other">Other</a></h5>
+        </div>
+        <div class="header-menu__component">
+            <h5><a href="#Education">Education</a></h5>
+        </div>
+        <div class="header-menu__component">
+            <h5><a href="#Other">Other</a></h5>
+        </div>
+        <div class="header-menu__mode-switch">
+            <h5>Theme:</h5>
+            <div class="toggle transparent">
+                <label>
+                    <input type="checkbox" class="theme-switch">
+                    <span></span>
+                </label>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="main" id="About">
+    <div class="main__banner">
+        <div class="main__banner__image"></div>
+        <h1>Dima Romanov</h1>
+        <div class="main__banner__links">
+            <div class="main__banner__links__container">
+                <a class=" stars-blur" href="https://www.linkedin.com/in/dima-romanov-dd/"><i class="fa fa-linkedin"></i>dima-romanov-dd</a>
+                <br>
+                <a class=" stars-blur" href="https://github.com/Deymors/"><i class="fa fa-github"></i>Deymors</a>
+                <br>
+                <a class=" stars-blur" href="mailto:dima.dd.romanov@gmail.com"><i class="fa fa-envelope"></i>dima.dd.romanov@gmail.com</a>
+            </div>
+        </div>
+    </div>
+    <div class="main__descriptions">
+        <div class="main__descriptions__text  stars-full-blur">
+            <p>Dima is a Computer Science and Mathematics student in McGill University. He is driven by academic interests in artificial intelligence and applications of software engineering in natural sciences. Aside from that, Dima is passionate about entrepreneurship and venture capital.</p>
+            <br>
+            <p>In his free time, he loves traveling, reading, listening to podcasts, debating about politics/history/philosophy/art.</p>
+            <br>
+            <p>Currently, Dima is looking for internship opportunities for the Winter/Spring 2021 and Summer 2021.</p>
+        </div>
+    </div>
+</div>
+
+<div class="experience stars-full-blur" id="Experience">
+    <h2>Experience</h2>
+    <div class="experience__controller  stars-blur">
+        <h5>Programming Languages:</h5>
+        <div class="experience__controller__item" skill="Java">
+            <h6>Java</h6>
+        </div>
+        <div class="experience__controller__item" skill="Javascript">
+            <h6>Javascript</h6>
+        </div>
+        <div class="experience__controller__item" skill="Python">
+            <h6>Python</h6>
+        </div>
+        <div class="experience__controller__item" skill="C/C++">
+            <h6>C/C++</h6>
+        </div>
+        <div class="experience__controller__item" skill="Julia">
+            <h6>Julia</h6>
+        </div>
+        <div class="experience__controller__item" skill="Typescript">
+            <h6>Dart</h6>
+        </div>
+        <div class="experience__controller__item" skill="Typescript">
+            <h6>Typescript</h6>
+        </div>
+        <div class="experience__controller__item" skill="C#">
+            <h6>C#</h6>
+        </div>
+        <div class="experience__controller__item" skill="MATLAB">
+            <h6>MATLAB</h6>
+        </div>
+        <div class="experience__controller__item experience__controller__item--unselectable" skill="HTML&CSS">
+            <h6>HTML&CSS</h6>
+        </div>
+        <div class="experience__controller__item experience__controller__item--unselectable" skill="Bash">
+            <h6>Bash</h6>
+        </div>
+        <div class="experience__controller__row-breaker"></div>
+        <h5>Technologies:</h5>
+        <div class="experience__controller__item" skill="Flutter">
+            <h6>Flutter</h6>
+        </div>
+        <div class="experience__controller__item" skill="SpringBoot">
+            <h6>SpringBoot</h6>
+        </div>
+        <div class="experience__controller__item" skill="Pytorch">
+            <h6>Pytorch</h6>
+        </div>
+        <div class="experience__controller__item" skill="OpenAI Gym">
+            <h6>OpenAI Gym</h6>
+        </div>
+        <div class="experience__controller__item" skill="MongoDB">
+            <h6>MongoDB</h6>
+        </div>
+        <div class="experience__controller__item" skill="Angular.js">
+            <h6>Angular.js</h6>
+        </div>
+        <div class="experience__controller__item" skill="React.js">
+            <h6>React.js</h6>
+        </div>
+        <div class="experience__controller__item experience__controller__item--unselectable" skill="Git">
+            <h6>Git</h6>
+        </div>
+        <div class="experience__controller__item experience__controller__item--unselectable" skill="Jira">
+            <h6>Jira</h6>
+        </div>
+        <div class="experience__controller__row-breaker"></div>
+        <h5>Other:</h5>
+        <div class="experience__controller__item" skill="Languages">
+            <h6>Languages</h6>
+        </div>
+        <div class="experience__controller__item" skill="Student Leadership">
+            <h6>Student Leadership</h6>
+        </div>
+        <div class="experience__controller__item" skill="Design">
+            <h6>Design</h6>
+        </div>
+        <div class="experience__controller__row-breaker"></div>
+        <span>* dashed line means that skill is used universally</span>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="experience__clear-button"><h5>Clear Selection</h5></div>
+    <div class="experience-container">
+        
+            <div class="experience__container__list">
+                <h3 class=" stars-blur" id="Work Experience">Work Experience</h3>
+                <div class="experience__container__list__boxes">
+                    <div class="experience__container__list__boxes__column">
+                        
+                        
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/mila.png"
+                                        
+                                             class="dark-image"
+                                                
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Mila
+                                        
+                                        
+                                            <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--present">
+                                                <p>Present</p>
+                                            </div>
+                                        
+                                    </h4>
+                                    <h5>
+                                        Research Intern, Fall 2020
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Working on research into partially observed reinforcement learning <br><br> <span>&#8226;</span> Updates are coming soon!
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Julia">
+                                                <h6>
+                                                    Julia
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Python">
+                                                <h6>
+                                                    Python
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="OpenAI Gym">
+                                                <h6>
+                                                    OpenAI Gym
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/mcgill.png"
+                                        
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        McGill University Research Centre for Studies in Aging
+                                        
+                                        
+                                            <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--present">
+                                                <p>Present</p>
+                                            </div>
+                                        
+                                    </h4>
+                                    <h5>
+                                        Developer, Mar 2020-Present
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Leading the development of cognitive tests to detect and treat neurodegenerative diseases<br><br><span>&#8226;</span> Developed a REST API and an admin web dashboard using Node.js and MongoDB for an effective surveying and testing of participants<br><br><span>&#8226;</span> Configured Ubuntu servers using Nginx
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Javascript">
+                                                <h6>
+                                                    Javascript
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="MongoDB">
+                                                <h6>
+                                                    MongoDB
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Node.js">
+                                                <h6>
+                                                    Node.js
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="EJS">
+                                                <h6>
+                                                    EJS
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Nginx">
+                                                <h6>
+                                                    Nginx
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                    </div>
+                    <div class="experience__container__list__boxes__column">
+                        
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/rbc.png"
+                                        
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        RBC
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        Software Developer Intern on Omni Team, Summer 2020
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Worked on the sign-up process for new clients using Java Spring Boot<br><br><span>&#8226;</span> Collaborated with designers on developing business critical features using Angular and Typescript in an Agile environment<br><br><span>&#8226;</span> Acted as team’s scrum master and organized several technological share events for dozens of RBC employees and interns <br><br><span>&#8226;</span> Volunteered to teach children coding through an online camp
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Java">
+                                                <h6>
+                                                    Java
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Typescript">
+                                                <h6>
+                                                    Typescript
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Javascript">
+                                                <h6>
+                                                    Javascript
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Angular.js">
+                                                <h6>
+                                                    Angular.js
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="SpringBoot">
+                                                <h6>
+                                                    SpringBoot
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Maven">
+                                                <h6>
+                                                    Maven
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Node.js">
+                                                <h6>
+                                                    Node.js
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/interfacing.png"
+                                        
+                                             class="dark-image"
+                                                
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Interfacing Technologies
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        Analyst Developer Intern, Oct 2019-Mar 2020
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Spearheaded the development of an Intelligent Document Parser<br><br><span>&#8226;</span> Designed application’s architecture and parsing algorithm; achieved parsing accuracy of 96%<br><br><span>&#8226;</span> Built a REST API using Node.js, MongoDB, and React; deployed the project using Docker and Azure<br><br>
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Javascript">
+                                                <h6>
+                                                    Javascript
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Node.js">
+                                                <h6>
+                                                    Node.js
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Azure">
+                                                <h6>
+                                                    Azure
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="React.js">
+                                                <h6>
+                                                    React.js
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Typescript">
+                                                <h6>
+                                                    Typescript
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Docker">
+                                                <h6>
+                                                    Docker
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                        <div class="experience__container__list__boxes__box__learn-more" link="">
+                                            <h5>Learn More</h5>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+                <div class="experience__container__list__dots">
+                    <div class="experience__container__list__dots__dot"></div>
+                    <div class="experience__container__list__dots__dot"></div>
+                    <div class="experience__container__list__dots__dot"></div>
+                </div>
+            </div>
+        
+            <div class="experience__container__list">
+                <h3 class=" stars-blur" id="Projects">Projects</h3>
+                <div class="experience__container__list__boxes">
+                    <div class="experience__container__list__boxes__column">
+                        
+                        
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/babbl.png"
+                                        
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Babbl
+                                        
+                                        
+                                            <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--present">
+                                                <p>Present</p>
+                                            </div>
+                                        
+                                    </h4>
+                                    <h5>
+                                        Co-founder, May 2020-Present
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Building a voice only social media mobile application using Flutter<br><br><span>&#8226;</span> Leading the development process of the team of three<br><br><span>&#8226;</span> Designed application's architecture; optimized database calls by 80% (Firestore and Firebase)<br><br><span>&#8226;</span> Created a system of background processes and streams to ensure a background audio playback and data fetching
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Flutter">
+                                                <h6>
+                                                    Flutter
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="FireStore">
+                                                <h6>
+                                                    FireStore
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="FireBase">
+                                                <h6>
+                                                    FireBase
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Dart">
+                                                <h6>
+                                                    Dart
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                        <div class="experience__container__list__boxes__box__learn-more" link="https://www.babbl.app/welcome">
+                                            <h5>Learn More</h5>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/nutriboom.png"
+                                        
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Nutriboom
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        Hack the Globe 2020 (Hackathon)
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Built an SMS messenger bot collecting information about the consumption of food in communities which suffer from malnutrition<br><br><span>&#8226;</span> Worked with several professionals from NGOs to formulate and develop a prototype solution which would successfully address the problem
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Python">
+                                                <h6>
+                                                    Python
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Flask.py">
+                                                <h6>
+                                                    Flask.py
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Twilio">
+                                                <h6>
+                                                    Twilio
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Competitive Programming
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Been participating in programming competitions for around past 5 years<br><br><span>&#8226;</span> Got the highest provincial score in Canadian Computing Competition twice (2017,2019)
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Java">
+                                                <h6>
+                                                    Java
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="C/C++">
+                                                <h6>
+                                                    C/C++
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/food.png"
+                                        
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Food Delivery App Prototype
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        2016
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Built a small prototype mobile cross-platform application for a food-delivery app(experimenting with Xamarin)
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="C#">
+                                                <h6>
+                                                    C#
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Xamarin">
+                                                <h6>
+                                                    Xamarin
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                    </div>
+                    <div class="experience__container__list__boxes__column">
+                        
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/kima.png"
+                                        
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Kima
+                                        
+                                        
+                                            <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--present">
+                                                <p>Present</p>
+                                            </div>
+                                        
+                                    </h4>
+                                    <h5>
+                                        
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Early development stage; something exciting is coming here!
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Tensorflow.js">
+                                                <h6>
+                                                    Tensorflow.js
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Javascript">
+                                                <h6>
+                                                    Javascript
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Node.js">
+                                                <h6>
+                                                    Node.js
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/locite.png"
+                                        
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Locite
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        MariHacks 2019
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Built a website displaying information about genetic features and diseases<br><br><span>&#8226;</span> Built a web-scraper collecting the information from the NCBI
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Python">
+                                                <h6>
+                                                    Python
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Flask.py">
+                                                <h6>
+                                                    Flask.py
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="BeautifulSoup.py">
+                                                <h6>
+                                                    BeautifulSoup.py
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Three.js">
+                                                <h6>
+                                                    Three.js
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/firework.png"
+                                        
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Fireworks Simulator
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        McGill Physics Hackathon 2016
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Built a firework simulator which mimics the behavior of actual fireworks including their structure and materials
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="C#">
+                                                <h6>
+                                                    C#
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Unity">
+                                                <h6>
+                                                    Unity
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Other
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        
+                                    </h5>
+                                    <p>
+                                        Here are the outlines of some other projects I have been working previously:<br><br><span>&#8226;</span> WordPress custom theme together with an admin panel and custom plugins written in PHP 2018<br><br><span>&#8226;</span> Class scheduler written in Javascript 2018<br><br><span>&#8226;</span> AI agent playing an online game using a mini-max algorithm written in JAVA 2016
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Javascript">
+                                                <h6>
+                                                    Javascript
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="PHP">
+                                                <h6>
+                                                    PHP
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="C/C++">
+                                                <h6>
+                                                    C/C++
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+                <div class="experience__container__list__dots">
+                    <div class="experience__container__list__dots__dot"></div>
+                    <div class="experience__container__list__dots__dot"></div>
+                    <div class="experience__container__list__dots__dot"></div>
+                </div>
+            </div>
+        
+            <div class="experience__container__list">
+                <h3 class=" stars-blur" id="Education">Education</h3>
+                <div class="experience__container__list__boxes">
+                    <div class="experience__container__list__boxes__column">
+                        
+                        
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/mcgill.png"
+                                        
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Machine Learning
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        Winter 2020
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> A graduate level class covering machine learning<br><br>Class projects:<br><br><span>&#8226;</span> Image classifier<br><br><span>&#8226;</span> Text classifier<br><br><span>&#8226;</span> Implementations of basic machine learning models
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Python">
+                                                <h6>
+                                                    Python
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Pytorch">
+                                                <h6>
+                                                    Pytorch
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/mcgill.png"
+                                        
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Computational perception
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        Winter 2020
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> An interesting class covering how humans perceive the real world through their eyes and ears<br><br><span>&#8226;</span> It analyzes behind the scenes processes in our brain and how we can mimic them in software development
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="MATLAB">
+                                                <h6>
+                                                    MATLAB
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/mcgill.png"
+                                        
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Applications of Machine Learning in Real World Systems
+                                        
+                                            <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--auditing">
+                                                <p>Auditing</p>
+                                            </div>
+                                        
+                                        
+                                            <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--present">
+                                                <p>Present</p>
+                                            </div>
+                                        
+                                    </h4>
+                                    <h5>
+                                        Fall 2020
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> A graduate level class teaching how to apply machine learning algorithms on solving real-world problems
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/blockchain.png"
+                                        
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Blockchain Fundamentals
+                                        
+                                            <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--auditing">
+                                                <p>Auditing</p>
+                                            </div>
+                                        
+                                        
+                                            <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--present">
+                                                <p>Present</p>
+                                            </div>
+                                        
+                                    </h4>
+                                    <h5>
+                                        Fall 2020
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Listening to an online course made by BLOCKCHAIN AT BERKELEY. Always wanted to learn more about the topic<br><br><span> Most likely will do more research/little projects on the side to better understand the field
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                    </div>
+                                    
+                                        <div class="experience__container__list__boxes__box__learn-more" link="https://blockchain.berkeley.edu/courses/fall-2020-fundamentals-webinar/">
+                                            <h5>Learn More</h5>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                    <div class="experience__container__list__boxes__column">
+                        
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/mcgill.png"
+                                        
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Artificial Intelligence
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        Winter 2020
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Class covering multiple areas related to artificial intelligence starting with simple A* and ending with reinforcement learning<br><br><span>&#8226;</span> Final project consisted of writing an AI agent playing a game called Saboteur
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Java">
+                                                <h6>
+                                                    Java
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/mcgill.png"
+                                        
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Computational Biology
+                                        
+                                        
+                                            <div class="experience__container__list__boxes__box__flair experience__container__list__boxes__box__flair--present">
+                                                <p>Present</p>
+                                            </div>
+                                        
+                                    </h4>
+                                    <h5>
+                                        Fall 2020
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> A graduate level class covering the applications of software development in natural sciences<br><br><span>&#8226;</span> Final project: coming soon!
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Java">
+                                                <h6>
+                                                    Java
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="C/C++">
+                                                <h6>
+                                                    C/C++
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Python">
+                                                <h6>
+                                                    Python
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                        <img src="/img/mcgill.png"
+                                        
+                                             alt="hehe">
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Other classes
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Competitive Programming (Fall 2020)<br><br><span>&#8226;</span> Functional Programming (Fall 2020)<br><br><span>&#8226;</span> Honors Algorithms and Data structures (Winter 2020)<br><br><span>&#8226;</span> Introduction to Computer Science (Fall 2019)<br><br><span>&#8226;</span> Introduction to Software Systems (Fall 2019)
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Java">
+                                                <h6>
+                                                    Java
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="C/C++">
+                                                <h6>
+                                                    C/C++
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="OCaml">
+                                                <h6>
+                                                    OCaml
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                    </div>
+                </div>
+                <div class="experience__container__list__dots">
+                    <div class="experience__container__list__dots__dot"></div>
+                    <div class="experience__container__list__dots__dot"></div>
+                    <div class="experience__container__list__dots__dot"></div>
+                </div>
+            </div>
+        
+            <div class="experience__container__list">
+                <h3 class=" stars-blur" id="Other">Other</h3>
+                <div class="experience__container__list__boxes">
+                    <div class="experience__container__list__boxes__column">
+                        
+                        
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        College Newspaper
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        Chief Editor, 2018-2019
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Coordinated a team of over 40 editors and writers<br><br><span>&#8226;</span> Set the general direction of the paper
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Student Leadership">
+                                                <h6>
+                                                    Student Leadership
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Mathematics Competitions
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        
+                                    </h5>
+                                    <p>
+                                        Been participating in a lot of mathematics competition over the years; here a few of them:<br><br><span>&#8226;</span> Canadian Math Olympiad Qualifier 2018<br><br><span>&#8226;</span> Michel-Girard prize in 2017 and 2019 (Awarded to the winner of the Math competition organized by Quebec Mathematical Association)<br><br><span>&#8226;</span> AIME qualifier
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Design
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Did various small various projects related to design in photo-editing and 3D modelling<br><br><span>&#8226;</span> Modeled renders for the Polish satellite PW-sat 2 in 2014(link is below)
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Figma">
+                                                <h6>
+                                                    Figma
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Cinema4D">
+                                                <h6>
+                                                    Cinema4D
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Photoshop">
+                                                <h6>
+                                                    Photoshop
+                                                </h6>
+                                            </div>
+                                        
+                                            <div class="experience__controller__item" skill="Blender">
+                                                <h6>
+                                                    Blender
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                        <div class="experience__container__list__boxes__box__learn-more" link="https://pw-sat.pl/en/short-summary-of-phase-a/">
+                                            <h5>Learn More</h5>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                    <div class="experience__container__list__boxes__column">
+                        
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Political Club
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        Co-founder, 2018-2019
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Co-founded a political club<br><br><span>&#8226;</span> Organized several events with members of parliament and a Canadian Minister
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Student Leadership">
+                                                <h6>
+                                                    Student Leadership
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Debating & Public Speaking
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        
+                                    </h5>
+                                    <p>
+                                        <span>&#8226;</span> Participated in several debate, business case, Model United Nations competitions and won several awards<br><br><span>&#8226;</span> Was a member of my school's international delegation for Harvard WorldMun 2019
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Student Leadership">
+                                                <h6>
+                                                    Student Leadership
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                    </div>
+                </div>
+                <div class="experience__container__list__dots">
+                    <div class="experience__container__list__dots__dot"></div>
+                    <div class="experience__container__list__dots__dot"></div>
+                    <div class="experience__container__list__dots__dot"></div>
+                </div>
+            </div>
+        
+            <div class="experience__container__list">
+                <h3 class=" stars-blur" id="Languages">Languages</h3>
+                <div class="experience__container__list__boxes">
+                    <div class="experience__container__list__boxes__column">
+                        
+                        
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        English
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        
+                                    </h5>
+                                    <p>
+                                        Fluent
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Languages">
+                                                <h6>
+                                                    Languages
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Russian
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        
+                                    </h5>
+                                    <p>
+                                        Native
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Languages">
+                                                <h6>
+                                                    Languages
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Ukrainian
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        
+                                    </h5>
+                                    <p>
+                                        Native
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Languages">
+                                                <h6>
+                                                    Languages
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                    <div class="experience__container__list__boxes__column">
+                        
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        French
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        
+                                    </h5>
+                                    <p>
+                                        Full professional proficiency
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Languages">
+                                                <h6>
+                                                    Languages
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                            
+                            
+                            <div class="experience__container__list__boxes__box">
+                                <div class="experience__container__list__boxes__box__media">
+                                    <div class="experience__container__list__boxes__box__media__line-top"></div>
+                                    
+                                    <div class="experience__container__list__boxes__box__media__line-bottom"></div>
+                                </div>
+                                <div class="experience__container__list__boxes__box__description">
+                                    <h4>
+                                        Polish
+                                        
+                                        
+                                    </h4>
+                                    <h5>
+                                        
+                                    </h5>
+                                    <p>
+                                        Fluent
+                                    </p>
+                                    <div class="experience__container__list__boxes__box__tags">
+                                        
+                                            <div class="experience__controller__item" skill="Languages">
+                                                <h6>
+                                                    Languages
+                                                </h6>
+                                            </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            
+                            
+                                
+                    </div>
+                </div>
+                <div class="experience__container__list__dots">
+                    <div class="experience__container__list__dots__dot"></div>
+                    <div class="experience__container__list__dots__dot"></div>
+                    <div class="experience__container__list__dots__dot"></div>
+                </div>
+            </div>
+        
+    </div>
+</div>
+
+<footer>
+    <div class="footer-menu  stars-blur">
+        <div class="footer-menu__component">
+            <h6><a href="#About">About</a></h6>
+        </div>
+        <div class="footer-menu__component">
+            <h6><a href="#Experience">Experience</a></h6>
+        </div>
+        <div class="footer-menu__component" >
+            <h6><a href="#Other">Other</a></h6>
+        </div>
+        <div class="footer-menu__component">
+            <h6><a href="#Education">Education</a></h6>
+        </div>
+        <div class="footer-menu__component">
+            <h6><a href="#Other">Other</a></h6>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <span>© Dima Romanov</span>
+    </div>
+</footer>
+
+<div class="loader"></div>
+<div class="loader-bg"></div>
+
+<script type="text/javascript" src="./assets/js/bundle.js"></script></body>
+</html>
