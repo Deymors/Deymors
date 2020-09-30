@@ -4,6 +4,8 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const data = require('../data/data.json');
 
+import path from 'path';
+
 const PORT = process.env.PORT || 5000;
 
 const getEntries = () => {
@@ -92,6 +94,8 @@ module.exports = {
         ],
     },
     devServer: {
+        contentBase: path.join(__dirname, '/../src/assets/'),
+        contentBasePublicPath: '/',
         port: PORT
     },
     resolve: {
