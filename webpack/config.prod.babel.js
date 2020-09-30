@@ -4,6 +4,8 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const data = require('../data/data.json');
 
+const PORT = process.env.PORT || 5000;
+
 const getEntries = () => {
     const entries = [
         './src/js/app.js',
@@ -31,7 +33,7 @@ const getPlugins = () => {
         new HtmlWebpackPlugin({
             template: './src/templates/index.ejs',
             templateParameters: {
-                'data':data
+                'data': data
             }
         }),
     ];
@@ -88,6 +90,9 @@ module.exports = {
                 })
             },
         ],
+    },
+    devServer: {
+        port: PORT
     },
     resolve: {
         extensions: ['.js', '.jpg', '.ejs', '.scss'],

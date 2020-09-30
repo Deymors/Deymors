@@ -60,10 +60,3 @@ const Server = {
 };
 
 Server.watch('./src/templates');
-
-
-
-
-
-
-
