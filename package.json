@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "main": "./src/server.js",
     "scripts": {
+        "heroku-prebuild": "npm install --dev",
         "serve": "webpack-dev-server --config ./webpack/config.dev.babel.js --mode development ",
         "start-dev": "node ./webpack/server.js",
         "build": "webpack --config ./webpack/config.prod.babel.js --mode production --env.production",
