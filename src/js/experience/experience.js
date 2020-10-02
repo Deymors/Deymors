@@ -34,7 +34,7 @@ function addClearSelectionEvent() {
 }
 
 function hideListItemsIfNeeded() {
-    let isSelectionActive = $('.experience__controller__item--selected').length !== 0;
+    const isSelectionActive = $('.experience__controller__item--selected').length !== 0;
     if (isSelectionActive) {
         $('.experience__container__list__boxes__box')
             .each(function () {
@@ -70,8 +70,6 @@ function hideListItemsIfNeeded() {
                         .fadeOut();
                 }
             });
-    } else {
-
     }
     return isSelectionActive;
 }
@@ -82,9 +80,9 @@ function showClearSelectionButton() {
         .hide()
         .fadeIn();
 }
-d
+
 function hideClearSelectionButtonIfNeeded() {
-    let isSelectionActive = $('.experience__controller__item--selected').length !== 0;
+    const isSelectionActive = $('.experience__controller__item--selected').length !== 0;
     if (!isSelectionActive) {
         $('.experience__clear-button')
             .css('display', 'none')
