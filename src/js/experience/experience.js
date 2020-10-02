@@ -9,19 +9,23 @@ function addLearnMoreEvent() {
         });
 }
 
+function clearSelection() {
+    $('.experience__container__list')
+        .css('display', 'flex')
+        .hide()
+        .fadeIn();
+    $('.experience__container__list__boxes__box')
+        .css('display', 'flex')
+        .hide()
+        .fadeIn();
+    $('.experience__controller__item--selected')
+        .removeClass('experience__controller__item--selected');
+}
+
 function addClearSelectionEvent() {
     $('.experience__clear-button')
         .on('click', function () {
-            $('.experience__container__list')
-                .css('display', 'flex')
-                .hide()
-                .fadeIn();
-            $('.experience__container__list__boxes__box')
-                .css('display', 'flex')
-                .hide()
-                .fadeIn();
-            $('.experience__controller__item--selected')
-                .removeClass('experience__controller__item--selected');
+            clearSelection();
             $(this)
                 .css('display', 'none')
                 .hide()
@@ -66,6 +70,8 @@ function hideListItemsIfNeeded() {
                         .fadeOut();
                 }
             });
+    } else {
+
     }
     return isSelectionActive;
 }
@@ -76,7 +82,7 @@ function showClearSelectionButton() {
         .hide()
         .fadeIn();
 }
-
+d
 function hideClearSelectionButtonIfNeeded() {
     let isSelectionActive = $('.experience__controller__item--selected').length !== 0;
     if (!isSelectionActive) {
@@ -84,6 +90,7 @@ function hideClearSelectionButtonIfNeeded() {
             .css('display', 'none')
             .hide()
             .fadeOut();
+        clearSelection();
     }
     return isSelectionActive;
 }
