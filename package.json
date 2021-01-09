@@ -9,7 +9,7 @@
         "build": "webpack --config ./webpack/config.prod.babel.js --mode production --env.production",
         "eslint": "eslint src/**/*.js",
         "eslint-fix": "eslint src/**/*.js --fix",
-        "start": "webpack-dev-server --open --config ./webpack/config.prod.babel.js"
+        "start": "webpack-dev-server --open --config ./webpack/config.prod.babel.js --port $PORT --host 0.0.0.0 "
     },
     "repository": "https://github.com/izica/html-sass-babel-webpack-boilerplate.git",
     "author": "Deymors <dima.dd.romanov@gmail.com>",
