@@ -4,25 +4,87 @@
       "title": "Work Experience",
       "exps": [
         {
-          "title": "Mila",
-          "subTitle": "Research Intern, Fall 2020",
-          "description": "<span>&#8226;</span> Working on research into partially observed reinforcement learning <br><br> <span>&#8226;</span> Updates are coming soon!",
+          "title": "Morgan Stanley",
+          "subTitle": "Summer Technology Analyst, Summer 2021",
+          "description": "<span>&#8226;</span> Joining Investment Management Team ",
           "learnMoreLink": "",
-          "imgLink": "/img/mila.png",
+          "imgLink": "/img/morgan.png",
           "imgDark": true,
           "flair": {
             "present": true
           },
           "tags": [
-            "Julia",
+          ]
+        },
+        {
+          "title": "Project CoDe",
+          "subTitle": "Team Lead, Dec 2020-Present",
+          "description": "<span>&#8226;</span> Leading the development of a cognitive test helping to diagnose dementia <br><br><span>&#8226;</span>Leading a team of four developers ",
+          "imgLink": "/img/code.png",
+          "flair": {
+            "present": true
+          },
+          "tags": [
+            "Javascript",
+            "MongoDB",
+            "Node.js",
+            "EJS",
+            "Nginx"
+          ]
+        },
+        {
+          "title": "Babbl",
+          "subTitle": "Co-founder, May 2020-Present",
+          "description": "<span>&#8226;</span> Building a voice only social media mobile application using Flutter<br><br><span>&#8226;</span> Leading the development process of the team of three<br><br><span>&#8226;</span> Designed application's architecture; optimized database calls by 80% (Firestore and Firebase)<br><br><span>&#8226;</span> Created a system of background processes and streams to ensure a background audio playback and data fetching",
+          "imgLink": "/img/babbl.png",
+          "learnMoreLink": "https://www.babbl.app/welcome",
+          "flair": {
+            "present": true
+          },
+          "tags": [
+            "Flutter",
+            "FireStore",
+            "FireBase",
+            "Dart",
+            "Design"
+          ]
+        },
+        {
+          "title": "Mila",
+          "subTitle": "Research Intern, Fall 2020",
+          "description": "<span>&#8226;</span> Working on research into partially observed reinforcement learning <br><br> <span>&#8226;</span> ",
+          "learnMoreLink": "",
+          "imgLink": "/img/mila.png",
+          "imgDark": true,
+          "flair": {
+          },
+          "tags": [
+            "Pytorch",
+            "Tensorflow",
             "Python",
             "OpenAI Gym"
           ]
         },
         {
+          "title": "Project SNAP",
+          "subTitle": "Developer, Mar 2020-Present",
+          "description": "<span>&#8226;</span> Leading the development of cognitive tests to detect and treat neurodegenerative diseases<br><br><span>&#8226;</span> Facilitating testing on a cohort with an estimated value of 8,000,000 dollars<br><br><span>&#8226;</span> Developed a REST API and an admin web dashboard using Node.js and MongoDB for an effective surveying and testing of participants<br><br><span>&#8226;</span> Configured Ubuntu servers using Nginx",
+          "imgLink": "/img/snap.png",
+          "flair": {
+            "present": true
+          },
+          "tags": [
+            "Javascript",
+            "MongoDB",
+            "Node.js",
+            "EJS",
+            "Nginx"
+          ]
+        },
+        {
           "title": "RBC",
           "subTitle": "Software Developer Intern on Omni Team, Summer 2020",
-          "description": "<span>&#8226;</span> Worked on the sign-up process for new clients using Java Spring Boot<br><br><span>&#8226;</span> Collaborated with designers on developing business critical features using Angular and Typescript in an Agile environment<br><br><span>&#8226;</span> Acted as team’s scrum master and organized several technological share events for dozens of RBC employees and interns <br><br><span>&#8226;</span> Volunteered to teach children coding through an online camp",
+          "description": "<span>&#8226;</span> Worked on one of the most time sensitive projects, remote sign-up process using Java Spring Boot and Angular.js<br><br><span>&#8226;</span> Collaborated with designers on developing business critical features using Angular and Typescript in an Agile environment<br><br><span>&#8226;</span> Acted as team’s scrum master and organized several technological share events for dozens of RBC employees and interns <br><br><span>&#8226;</span> Volunteered to teach children coding through an online camp",
           "learnMoreLink": "",
           "imgLink": "/img/rbc.png",
           "flair": {
@@ -35,22 +97,6 @@
             "SpringBoot",
             "Maven",
             "Node.js"
-          ]
-        },
-        {
-          "title": "McGill University Research Centre for Studies in Aging",
-          "subTitle": "Developer, Mar 2020-Present",
-          "description": "<span>&#8226;</span> Leading the development of cognitive tests to detect and treat neurodegenerative diseases<br><br><span>&#8226;</span> Developed a REST API and an admin web dashboard using Node.js and MongoDB for an effective surveying and testing of participants<br><br><span>&#8226;</span> Configured Ubuntu servers using Nginx",
-          "imgLink": "/img/mcgill.png",
-          "flair": {
-            "present": true
-          },
-          "tags": [
-            "Javascript",
-            "MongoDB",
-            "Node.js",
-            "EJS",
-            "Nginx"
           ]
         },
         {
@@ -78,20 +124,15 @@
       "title": "Projects",
       "exps": [
         {
-          "title": "Babbl",
-          "subTitle": "Co-founder, May 2020-Present",
-          "description": "<span>&#8226;</span> Building a voice only social media mobile application using Flutter<br><br><span>&#8226;</span> Leading the development process of the team of three<br><br><span>&#8226;</span> Designed application's architecture; optimized database calls by 80% (Firestore and Firebase)<br><br><span>&#8226;</span> Created a system of background processes and streams to ensure a background audio playback and data fetching",
-          "imgLink": "/img/babbl.png",
-          "learnMoreLink": "https://www.babbl.app/welcome",
+          "title": "MSARL",
+          "subTitle": "",
+          "description": "<span>&#8226;</span> Built a reinforcement learning agent solving a multiple sequence alignment problem",
+          "imgLink": "/img/locite.png",
           "flair": {
-            "present": true
           },
           "tags": [
-            "Flutter",
-            "FireStore",
-            "FireBase",
-            "Dart",
-            "Design"
+            "Tensorflow",
+            "Python"
           ]
         },
         {
@@ -190,6 +231,19 @@
       "title": "Education",
       "exps": [
         {
+          "title": "Brain Inspired AI",
+          "subTitle": "Winter 2021",
+          "description": "<span>&#8226;</span> A graduate level class covering Brain Inspired Artificial Intelligence models",
+          "learnMoreLink": "",
+          "imgLink": "/img/mcgill.png",
+          "flair": {
+          },
+          "tags": [
+            "Python",
+            "Pytorch"
+          ]
+        },
+        {
           "title": "Machine Learning",
           "subTitle": "Winter 2020",
           "description": "<span>&#8226;</span> A graduate level class covering machine learning<br><br>Class projects:<br><br><span>&#8226;</span> Image classifier<br><br><span>&#8226;</span> Text classifier<br><br><span>&#8226;</span> Implementations of basic machine learning models",
@@ -242,19 +296,6 @@
           ]
         },
         {
-          "title": "Applications of Machine Learning in Real World Systems",
-          "subTitle": "Fall 2020",
-          "description": "<span>&#8226;</span> A graduate level class teaching how to apply machine learning algorithms on solving real-world problems",
-          "learnMoreLink": "",
-          "imgLink": "/img/mcgill.png",
-          "flair": {
-            "auditing": true,
-            "present": true
-          },
-          "tags": [
-          ]
-        },
-        {
           "title": "Other classes",
           "subTitle": "",
           "description": "<span>&#8226;</span> Competitive Programming (Fall 2020)<br><br><span>&#8226;</span> Functional Programming (Fall 2020)<br><br><span>&#8226;</span> Honors Algorithms and Data structures (Winter 2020)<br><br><span>&#8226;</span> Introduction to Computer Science (Fall 2019)<br><br><span>&#8226;</span> Introduction to Software Systems (Fall 2019)",
@@ -266,19 +307,6 @@
             "Java",
             "C/C++",
             "OCaml"
-          ]
-        },
-        {
-          "title": "Blockchain Fundamentals",
-          "subTitle": "Fall 2020",
-          "description": "<span>&#8226;</span> Listening to an online course made by BLOCKCHAIN AT BERKELEY. Always wanted to learn more about the topic<br><br><span> Most likely will do more research/little projects on the side to better understand the field",
-          "learnMoreLink": "https://blockchain.berkeley.edu/courses/fall-2020-fundamentals-webinar/",
-          "imgLink": "/img/blockchain.png",
-          "flair": {
-            "auditing": true,
-            "present": true
-          },
-          "tags": [
           ]
         }
       ]
