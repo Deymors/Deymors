@@ -96,6 +96,7 @@ module.exports = {
     devServer: {
         contentBase: path.join(__dirname, '/../src/assets/'),
         contentBasePublicPath: '/',
+        disableHostCheck: true,
         port: PORT
     },
     resolve: {
