@@ -1,1 +1,1 @@
-web: npm start
+web: webpack-dev-server --open --config ./webpack/config.prod.babel.js
