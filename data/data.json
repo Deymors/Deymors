@@ -20,7 +20,7 @@
           "title": "Project CoDe",
           "subTitle": "Team Lead, Dec 2020-Present",
           "description": "<span>&#8226;</span> Leading the development of a cognitive test helping to diagnose dementia <br><br><span>&#8226;</span>Leading a team of four developers ",
-          "imgLink": "/img/code.png",
+          "imgLink": "/img/CoDe.png",
           "flair": {
             "present": true
           },
@@ -163,17 +163,16 @@
           ]
         },
         {
-          "title": "Locite",
-          "subTitle": "MariHacks 2019",
-          "description": "<span>&#8226;</span> Built a website displaying information about genetic features and diseases<br><br><span>&#8226;</span> Built a web-scraper collecting the information from the NCBI",
-          "imgLink": "/img/locite.png",
+          "title": "Nutriboom",
+          "subTitle": "Hack the Globe 2020 (Hackathon)",
+          "description": "<span>&#8226;</span> Built an SMS messenger bot collecting information about the consumption of food in communities which suffer from malnutrition<br><br><span>&#8226;</span> Worked with several professionals from NGOs to formulate and develop a prototype solution which would successfully address the problem",
+          "imgLink": "/img/nutriboom.png",
           "flair": {
           },
           "tags": [
             "Python",
             "Flask.py",
-            "BeautifulSoup.py",
-            "Three.js"
+            "Twilio"
           ]
         },
         {
@@ -186,6 +185,20 @@
           "tags": [
             "Java",
             "C/C++"
+          ]
+        },
+        {
+          "title": "Locite",
+          "subTitle": "MariHacks 2019",
+          "description": "<span>&#8226;</span> Built a website displaying information about genetic features and diseases<br><br><span>&#8226;</span> Built a web-scraper collecting the information from the NCBI",
+          "imgLink": "/img/locite.png",
+          "flair": {
+          },
+          "tags": [
+            "Python",
+            "Flask.py",
+            "BeautifulSoup.py",
+            "Three.js"
           ]
         },
         {
