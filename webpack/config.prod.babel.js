@@ -93,11 +93,6 @@ module.exports = {
             },
         ],
     },
-    devServer: {
-        contentBase: path.join(__dirname, '/../src/assets/'),
-        contentBasePublicPath: '/',
-        port: PORT
-    },
     resolve: {
         extensions: ['.js', '.jpg', '.ejs', '.scss'],
     }
