@@ -4,19 +4,6 @@
       "title": "Work Experience",
       "exps": [
         {
-          "title": "Morgan Stanley",
-          "subTitle": "Summer Technology Analyst, Summer 2021",
-          "description": "<span>&#8226;</span> Joining Investment Management Team ",
-          "learnMoreLink": "",
-          "imgLink": "/img/morgan.png",
-          "imgDark": true,
-          "flair": {
-            "present": true
-          },
-          "tags": [
-          ]
-        },
-        {
           "title": "Project CoDe",
           "subTitle": "Team Lead, Dec 2020-Present",
           "description": "<span>&#8226;</span> Leading the development of a cognitive test helping to diagnose dementia <br><br><span>&#8226;</span>Leading a team of four developers ",
@@ -51,7 +38,7 @@
         },
         {
           "title": "Mila",
-          "subTitle": "Research Intern, Fall 2020",
+          "subTitle": "Research Intern, Sep. 2020-Present",
           "description": "<span>&#8226;</span> Working on research into partially observed reinforcement learning <br><br> <span>&#8226;</span> ",
           "learnMoreLink": "",
           "imgLink": "/img/mila.png",
