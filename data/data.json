@@ -4,6 +4,35 @@
       "title": "Work Experience",
       "exps": [
         {
+          "title": "McGill Neurotech",
+          "subTitle": "Machine Learning Engineer, Feb. 2021-Present",
+          "description": "<span>&#8226;</span> Working on building a neurological device of the likes of brain-controlled wheelchair and EMG keyboard<br><br>",
+          "learnMoreLink": "",
+          "imgLink": "/img/neurotech.png",
+          "imgDark": true,
+          "flair": {
+          },
+          "tags": [
+            "Python"
+          ]
+        },
+        {
+          "title": "Mila",
+          "subTitle": "Research Intern, Sep. 2020-Present",
+          "description": "<span>&#8226;</span> Working on research into partially observed reinforcement learning <br><br><span>&#8226;</span> Applying state quantization and information state function in Monte Carlo Tree Search <br><br>",
+          "learnMoreLink": "",
+          "imgLink": "/img/mila.png",
+          "imgDark": true,
+          "flair": {
+          },
+          "tags": [
+            "Pytorch",
+            "Tensorflow",
+            "Python",
+            "OpenAI Gym"
+          ]
+        },
+        {
           "title": "Project CoDe",
           "subTitle": "Team Lead, Dec 2020-Present",
           "description": "<span>&#8226;</span> Leading the development of a cognitive test helping to diagnose dementia <br><br><span>&#8226;</span>Leading a team of four developers ",
@@ -17,39 +46,6 @@
             "Node.js",
             "EJS",
             "Nginx"
-          ]
-        },
-        {
-          "title": "Babbl",
-          "subTitle": "Co-founder, May 2020-Present",
-          "description": "<span>&#8226;</span> Building a voice only social media mobile application using Flutter<br><br><span>&#8226;</span> Leading the development process of the team of three<br><br><span>&#8226;</span> Designed application's architecture; optimized database calls by 80% (Firestore and Firebase)<br><br><span>&#8226;</span> Created a system of background processes and streams to ensure a background audio playback and data fetching",
-          "imgLink": "/img/babbl.png",
-          "learnMoreLink": "https://www.babbl.app/welcome",
-          "flair": {
-            "present": true
-          },
-          "tags": [
-            "Flutter",
-            "FireStore",
-            "FireBase",
-            "Dart",
-            "Design"
-          ]
-        },
-        {
-          "title": "Mila",
-          "subTitle": "Research Intern, Sep. 2020-Present",
-          "description": "<span>&#8226;</span> Working on research into partially observed reinforcement learning <br><br> <span>&#8226;</span> ",
-          "learnMoreLink": "",
-          "imgLink": "/img/mila.png",
-          "imgDark": true,
-          "flair": {
-          },
-          "tags": [
-            "Pytorch",
-            "Tensorflow",
-            "Python",
-            "OpenAI Gym"
           ]
         },
         {
@@ -137,16 +133,20 @@
           ]
         },
         {
-          "title": "Nutriboom",
-          "subTitle": "Hack the Globe 2020 (Hackathon)",
-          "description": "<span>&#8226;</span> Built an SMS messenger bot collecting information about the consumption of food in communities which suffer from malnutrition<br><br><span>&#8226;</span> Worked with several professionals from NGOs to formulate and develop a prototype solution which would successfully address the problem",
-          "imgLink": "/img/nutriboom.png",
+          "title": "Babbl",
+          "subTitle": "Co-founder, May 2020-Jan 2021",
+          "description": "<span>&#8226;</span> Built a voice only social media mobile application using Flutter<br><br><span>&#8226;</span> Lead the development process of the team of three<br><br><span>&#8226;</span> Designed application's architecture; optimized database calls by 80% (Firestore and Firebase)<br><br><span>&#8226;</span> Created a system of background processes and streams to ensure a background audio playback and data fetching",
+          "imgLink": "/img/babbl.png",
+          "learnMoreLink": "https://www.babbl.app/welcome",
           "flair": {
+            "present": true
           },
           "tags": [
-            "Python",
-            "Flask.py",
-            "Twilio"
+            "Flutter",
+            "FireStore",
+            "FireBase",
+            "Dart",
+            "Design"
           ]
         },
         {
